@@ -1,0 +1,14 @@
+
+
+#wrapper, #superzone, #main {
+  border:  none;
+  box-shadow: none;
+}
+
+#superzone .text, #superzone .icon, #superzone form {
+  display: none;
+}
+
+#header {
+  display: none;
+}
