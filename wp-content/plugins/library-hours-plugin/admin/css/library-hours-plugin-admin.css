@@ -2,3 +2,7 @@
  * All of the CSS for your dashboard-specific functionality should be
  * included in this file.
  */
+.acf_postbox .field {
+    width: 50%;
+    display: inline-block;
+}

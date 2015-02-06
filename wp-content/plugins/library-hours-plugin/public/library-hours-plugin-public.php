@@ -100,4 +100,16 @@ class Library_Hours_Plugin_Public {
 
 	}
 
+	public function load_custom_post_type_template($single_template) {
+		global $post;
+
+		if ($post->post_type == 'libhours_post_type') {
+
+			$single_template = plugin_dir_url( __FILE__ ) . 'public/partials/library-hours-plugin-public-display.php';
+
+		}
+		return $single_template;
+	}
+
+
 }

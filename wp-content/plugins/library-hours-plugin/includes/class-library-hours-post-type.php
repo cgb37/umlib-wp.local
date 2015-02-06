@@ -34,8 +34,8 @@ class Library_Hours_Post_Type
 	public function create_post_type() {
 
 		$labels = array(
-			'name'                => _x( 'Hours', 'Post Type General Name', 'text_domain' ),
-			'singular_name'       => _x( 'Hour', 'Post Type Singular Name', 'text_domain' ),
+			'name'                => _x( 'Library Schedules', 'Post Type General Name', 'text_domain' ),
+			'singular_name'       => _x( 'Library Schedule', 'Post Type Singular Name', 'text_domain' ),
 			'menu_name'           => __( 'Library Hours', 'text_domain' ),
 			'parent_item_colon'   => __( 'Parent Item:', 'text_domain' ),
 			'all_items'           => __( 'All Schedules', 'text_domain' ),
