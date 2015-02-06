@@ -119,6 +119,7 @@ class Library_Hours_Plugin {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/library-hours-plugin-public.php';
 
+
 		$this->loader = new Library_Hours_Plugin_Loader();
 
 	}

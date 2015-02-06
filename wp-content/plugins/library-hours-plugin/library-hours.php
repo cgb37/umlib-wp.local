@@ -18,7 +18,7 @@
  * Description:       Library Hours for Multiple Branches
  * Version:           1.0.0
  * Author:            Charles Brown-Roberts University of Miami
- * Author URI:        http://example.com/
+ * Author URI:        http://charlesbrownroberts.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       library-hours-plugin

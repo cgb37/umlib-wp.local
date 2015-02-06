@@ -52,6 +52,7 @@ class Library_Hours_Plugin_Admin {
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
 
+		$this->create_custom_library_hours_post_type();
 	}
 
 	/**
@@ -100,4 +101,11 @@ class Library_Hours_Plugin_Admin {
 
 	}
 
+
+	public function create_custom_library_hours_post_type() {
+
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-library-hours-post-type.php';
+		$Library_Hours_Post_Type = new Library_Hours_Post_Type();
+
+	}
 }
