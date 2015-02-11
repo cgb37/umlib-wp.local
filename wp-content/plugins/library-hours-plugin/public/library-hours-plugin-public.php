@@ -52,6 +52,7 @@ class Library_Hours_Plugin_Public {
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
 
+
 	}
 
 	/**
@@ -100,15 +101,21 @@ class Library_Hours_Plugin_Public {
 
 	}
 
-	public function load_custom_post_type_template($single_template) {
+	public function load_custom_post_type_template($template) {
 		global $post;
 
-		if ($post->post_type == 'libhours_post_type') {
+		if ( $post->post_type == 'libhours_post_type'  ) {
 
-			$single_template = plugin_dir_url( __FILE__ ) . 'public/partials/library-hours-plugin-public-display.php';
+			$new_template = dirname(__FILE__). '/partials/library-hours-plugin-public-display.php';
 
+			if(file_exists($new_template)) {
+				locate_template($new_template, true);
+				return  $new_template ;
+			}
+
+			return $template;
 		}
-		return $single_template;
+
 	}
 
 

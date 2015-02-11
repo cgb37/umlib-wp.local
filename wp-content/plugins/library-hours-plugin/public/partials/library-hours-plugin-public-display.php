@@ -13,6 +13,29 @@ get_header(); ?>
 			<header class="page-header">
 				<h1 class="page-title"><a href="/news/">Hours of Operation</a></h1>
 			</header><!-- .entry-header -->
+
+
+			<?php
+			$postlist = get_posts(array("post_type" => "libhours_post_type", "posts_per_page" => "10"));
+			?>
+
+			<ul>
+
+				<?php
+				foreach ( $postlist as $post): ?>
+					<li><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+							<?php the_post_thumbnail(); ?>
+						</a>
+						<div>
+							<?php the_title(); ?>
+						</div></li>
+
+				<?php
+				endforeach;
+				?>
+			</ul>
+
+
 		</div>
 
 		<div class="grid_9">
@@ -20,14 +43,25 @@ get_header(); ?>
 
 				<div id="primary">
 					<div id="content" role="main">
+
+
+
+						<?php //var_dump(get_post(get_the_ID())); ?>
+
+
 						<?php while ( have_posts() ) : the_post(); ?>
+
+
+
 
 							<nav id="nav-single">
 								<span class="nav-previous"><?php previous_post_link( '%link', __( '<span class="meta-nav">&larr;</span> Previous', 'twentyeleven' ) ); ?></span>
 								<span class="nav-next"><?php next_post_link( '%link', __( 'Next <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?></span>
 							</nav><!-- #nav-single -->
 
-							<?php get_template_part( 'content', 'single' ); ?>
+							<?php //get_template_part( 'content', 'single' ); ?>
+
+							<h1><?php the_title(); ?></h1>
 
 							<?php $time_offset = "18000"; ?>
 
@@ -92,8 +126,13 @@ get_header(); ?>
 							<hr>
 
 							<h2>Holidays</h2>
-							<?php
-							$child_posts = types_child_posts('holiday'); ?>
+
+							<?php $args = array(
+								'orderby' => 'wpcf-start-date',
+								'order' => 'ASC',
+
+							); ?>
+							<?php $child_posts = types_child_posts('holiday', $args); ?>
 
 							<ul>
 
@@ -117,7 +156,12 @@ get_header(); ?>
 							<hr>
 
 							<h2>Events</h2>
-							<?php $child_posts = types_child_posts('event'); ?>
+							<?php $args = array(
+								'orderby' => 'wpcf-start-date',
+								'order' => 'ASC',
+
+							); ?>
+							<?php $child_posts = types_child_posts('event', $args); ?>
 							<ul>
 								<?php
 								foreach ($child_posts as $child_post) {
@@ -139,7 +183,7 @@ get_header(); ?>
 		</div>
 
 		<div class="grid_3">
-			<?php //require_once("sidebar_news.php"); ?>
+			<?php get_sidebar(); ?>
 		</div>
 	</div><!-- .container_12 -->
 

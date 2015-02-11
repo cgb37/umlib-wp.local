@@ -108,4 +108,13 @@ class Library_Hours_Plugin_Admin {
 		$Library_Hours_Post_Type = new Library_Hours_Post_Type();
 
 	}
+
+
+	// register Foo_Widget widget
+	function register_library_hours_plugin_holidays_widget() {
+
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/widgets/class-holidays.widget.php';
+
+		register_widget( 'Library_Hours_Plugin_Holidays_Widget' );
+	}
 }

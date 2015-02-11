@@ -9,7 +9,7 @@
 class Library_Hours_Post_Type
 {
 
-	const POST_TYPE = "library_hours_post_type";
+	const POST_TYPE = "libhours_post_type";
 
 
 	public function __construct() {
@@ -52,7 +52,7 @@ class Library_Hours_Post_Type
 			'label'               => __( 'libhours_post_type', 'text_domain' ),
 			'description'         => __( 'Library Hours for Multiple Branches', 'text_domain' ),
 			'labels'              => $labels,
-			'supports'            => array( 'title', 'editor', 'custom-fields', ),
+			'supports'            => array( 'title', 'editor', 'thumbnail'),
 			'taxonomies'          => array(),
 			'hierarchical'        => true,
 			'public'              => true,
@@ -64,6 +64,7 @@ class Library_Hours_Post_Type
 			'can_export'          => true,
 			'has_archive'         => true,
 			'exclude_from_search' => false,
+			'rewrite'             => false,
 			'publicly_queryable'  => true,
 			'capability_type'     => 'page',
 		);

@@ -156,6 +156,8 @@ class Library_Hours_Plugin {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
+		$this->loader->add_action('widgets_init', $plugin_admin, 'register_library_hours_plugin_holidays_widget');
+
 	}
 
 	/**
@@ -172,7 +174,7 @@ class Library_Hours_Plugin {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 
-		//$this->loader->add_filter('single_template', $plugin_public, 'load_custom_post_type_template');
+		$this->loader->add_filter( 'single_template', $plugin_public, 'load_custom_post_type_template' );
 	}
 
 	/**
