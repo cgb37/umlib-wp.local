@@ -59,68 +59,31 @@ get_header(); ?>
 								<span class="nav-next"><?php next_post_link( '%link', __( 'Next <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?></span>
 							</nav><!-- #nav-single -->
 
-							<?php //get_template_part( 'content', 'single' ); ?>
 
+
+							<?php //var_dump(get_current_post(get_the_ID())); ?>
 							<h1><?php the_title(); ?></h1>
 
-							<?php $time_offset = "18000"; ?>
 
-							<?php
-							$monday_open = get_post_meta( get_the_ID(), 'monday_open' );
-							$monday_close = get_post_meta( get_the_ID(), 'monday_close' );
-							$tuesday_open = get_post_meta( get_the_ID(), 'tuesday_open' );
-							$tuesday_close = get_post_meta( get_the_ID(), 'tuesday_close' );
-							$wednesday_open = get_post_meta( get_the_ID(), 'wednesday_open' );
-							$wednesday_close = get_post_meta( get_the_ID(), 'wednesday_close' );
-							$thursday_open = get_post_meta( get_the_ID(), 'thursday_open' );
-							$thursday_close = get_post_meta( get_the_ID(), 'thursday_close' );
-							$friday_open = get_post_meta( get_the_ID(), 'friday_open' );
-							$friday_close = get_post_meta( get_the_ID(), 'friday_close' );
-							$saturday_open = get_post_meta( get_the_ID(), 'saturday_open' );
-							$saturday_close = get_post_meta( get_the_ID(), 'saturday_close' );
-							$sunday_open = get_post_meta( get_the_ID(), 'sunday_open' );
-							$sunday_close = get_post_meta( get_the_ID(), 'sunday_close' );
+
+
+							<?php $openHours = new Open_Hours(); ?>
+
+							<?php $ct = $openHours->current_time('timestamp');
+									echo $openHours->date_formatter($ct);
 
 							?>
 
+							<?php $data = $openHours->get_formatted_times(get_the_ID()); ?>
+							<?php foreach($data as $datum): ?>
+								<ul>
+								<?php foreach($datum as $key => $day): ?>
+									<li><?php echo $key; ?> open => <?php echo $day['open']; ?> close => <?php echo $day['close']; ?></li>
+								<?php endforeach; ?>
+								</ul>
+							<?php endforeach; ?>
 
-							<table width="50%">
-								<tr>
-									<td>Monday</td>
-									<td><?php echo date('h:i a', $monday_open[0]+$time_offset);?></td>
-									<td><?php echo date('h:i a', $monday_close[0]+$time_offset);?></td>
-								</tr>
-								<tr>
-									<td>Tuesday</td>
-									<td><?php echo date('h:i a', $tuesday_open[0]+$time_offset);?></td>
-									<td><?php echo date('h:i a', $tuesday_close[0]+$time_offset);?></td>
-								</tr>
-								<tr>
-									<td>Wednesday</td>
-									<td><?php echo date('h:i a', $wednesday_open[0]+$time_offset);?></td>
-									<td><?php echo date('h:i a', $wednesday_close[0]+$time_offset);?></td>
-								</tr>
-								<tr>
-									<td>Thursday</td>
-									<td><?php echo date('h:i a', $thursday_open[0]+$time_offset);?></td>
-									<td><?php echo date('h:i a', $thursday_close[0]+$time_offset);?></td>
-								</tr>
-								<tr>
-									<td>Friday</td>
-									<td><?php echo date('h:i a', $friday_open[0]+$time_offset);?></td>
-									<td><?php echo date('h:i a', $friday_close[0]+$time_offset);?></td>
-								</tr>
-								<tr>
-									<td>Saturday</td>
-									<td><?php echo date('h:i a', $saturday_open[0]+$time_offset);?></td>
-									<td><?php echo date('h:i a', $saturday_close[0]+$time_offset);?></td>
-								</tr>
-								<tr>
-									<td>Sunday</td>
-									<td><?php echo date('h:i a', $sunday_open[0]+$time_offset);?></td>
-									<td><?php echo date('h:i a', $sunday_close[0]+$time_offset);?></td>
-								</tr>
-							</table>
+
 
 
 							<hr>

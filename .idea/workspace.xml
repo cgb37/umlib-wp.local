@@ -2,148 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7656438d-9576-4303-b8b3-b012c694f0dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/widgets/class-holidays.widget.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/includes/installer-upgrader-skins.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/includes/installer.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/installer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/loader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/repositories.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/css/admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/img/complete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/img/computer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/img/dn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/img/dn2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/img/globe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/img/icon_error.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/img/on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/js/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/res/js/iframeResizer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/templates/downloads-list-compact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/templates/downloads-list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/templates/products-compact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/installer/templates/repository-listing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/onthego-resources/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/jquery-form-validation/jquery.validate-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/introduction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/marketing/types_marketing_message_survey_2014_09.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/types/marketing/types_marketing_message_survey_2014_09_admin_notice.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/lib/CakePHP-Validation.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/lib/CakePHP-Validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/ajax.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/ajax.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/api.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/audio.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/audio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/external/autocompleter.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/external/autocompleter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/css/basic.css" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/css/basic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/basic.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/resources/js/basic.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/resources/js/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/bootstrap.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/bootstrap.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/checkbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/checkbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.audio.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.audio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.checkbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.checkbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.checkboxes.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.checkboxes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.colorpicker.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.colorpicker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.conditional.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.conditional.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.credaudio.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.credaudio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.credfile.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.credfile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.credimage.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.credimage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.credvideo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.credvideo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.date.scripts.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.date.scripts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.eforms.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.eforms.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.field_factory.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.field_factory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.fieldconfig.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.fieldconfig.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.file.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.file.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.form_factory.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.form_factory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.image.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.radios.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.radios.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.repetitive.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.repetitive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.select.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.skype.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.skype.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.submit.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.taxonomy.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.taxonomy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.taxonomyhierarchical.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.taxonomyhierarchical.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.textarea.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.textarea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.textfield.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.textfield.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.types.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.types.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.validation.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.video.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.video.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/class.wpcf-post-types.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/class.wpcf-post-types.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.wysiwyg.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/classes/class.wysiwyg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/colorpicker.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/colorpicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/conditional.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/conditional.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/custom-fields-form-filter.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/custom-fields-form-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/custom-taxonomies-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/custom-taxonomies-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/resources/js/custom-types-form.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/resources/js/custom-types-form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/custom-types-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/custom-types-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/custom-types.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/custom-types.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/css/dashicons.css" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/css/dashicons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/date.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/debug/debug-information.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/debug/debug-information.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/visual-editor/editor-addon-generic.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/visual-editor/editor-addon-generic.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/visual-editor/editor-addon.class.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/visual-editor/editor-addon.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/editor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/field.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/field.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/fields-control.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/fields-control.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/fields-form.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/fields-form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/fields-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/fields-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/fields-list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/fields-list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields-post.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields-post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/fields.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/fields.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/fields.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/fields.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/file.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/file.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/file.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/forms.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/forms.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/classes/forms.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/classes/forms.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/frontend.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/frontend.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/debug/functions_debug_information.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/debug/functions_debug_information.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/help.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/help.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/visual-editor/res/js/icl_editor_addon_plugin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/visual-editor/res/js/icl_editor_addon_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/image.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/import-export.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/import-export.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/import-export.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/import-export.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/marketing/congrats-post-types/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/marketing/congrats-post-types/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/admin/library-hours-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/admin/library-hours-admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/loader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/main.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/marketing.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/marketing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/post-types/messages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/post-types/messages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/templates/metaform-item.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/templates/metaform-item.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/templates/metaform.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/templates/metaform.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/migration.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/migration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/module-manager.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/module-manager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/path.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/path.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/post-relationship.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/resources/js/post-relationship.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/post-relationship.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/post-relationship.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/post-relationship.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/post-relationship.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/types/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/relationship.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/classes/relationship.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/repetitive.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/repetitive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/skype.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/skype.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/marketing/congrats-post-types/style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/types/marketing/congrats-post-types/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/textarea.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/textarea.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/res/css/toolset-common.css" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/res/css/toolset-common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/plus/types-access.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/plus/types-access.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/usermeta-control.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/usermeta-control.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/includes/usermeta-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/includes/usermeta-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/usermeta-init.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/usermeta-init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/usermeta-post.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/usermeta-post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/classes/validation-cakephp.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/classes/validation-cakephp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/validation.js" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/common/toolset-forms/js/validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/video.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/fields/video.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/wpcf.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/wpcf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/wpml.php" afterPath="$PROJECT_DIR$/wp-content/plugins/types/embedded/includes/wpml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/hours-of-operation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/wp-content/plugins/hours-of-operation/.idea/workspace.xml" />
     </list>
     <ignored path="umlib-wp.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -171,18 +35,79 @@
       <file leaf-file-name="library-hours-plugin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.875" vertical-offset="1710" max-vertical-offset="3225">
-              <caret line="176" column="43" selection-start-line="176" selection-start-column="43" selection-end-line="176" selection-end-column="43" />
+            <state vertical-scroll-proportion="-12.458333" vertical-offset="1366" max-vertical-offset="3315">
+              <caret line="122" column="87" selection-start-line="122" selection-start-column="87" selection-end-line="122" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="library-hours-admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/admin/library-hours-admin.php">
+      <file leaf-file-name="library-hours-plugin-public-display.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-38.791668" vertical-offset="674" max-vertical-offset="1770">
-              <caret line="115" column="101" selection-start-line="115" selection-start-column="101" selection-end-line="115" selection-end-column="101" />
+            <state vertical-scroll-proportion="-15.0" vertical-offset="705" max-vertical-offset="2370">
+              <caret line="71" column="76" selection-start-line="71" selection-start-column="76" selection-end-line="71" selection-end-column="76" />
+              <folding>
+                <element signature="e#6#144#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.openhours.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.125" vertical-offset="1215" max-vertical-offset="7620">
+              <caret line="110" column="67" selection-start-line="110" selection-start-column="67" selection-end-line="110" selection-end-column="67" />
+              <folding>
+                <element signature="e#6#94#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpeningHours.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/classes/OpeningHours.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3138685" vertical-offset="2776" max-vertical-offset="3885">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpeningPeriod.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/classes/OpeningPeriod.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.958334" vertical-offset="1" max-vertical-offset="1110">
+              <caret line="50" column="91" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.875" vertical-offset="180" max-vertical-offset="72225">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="69" selection-end-column="1" />
+              <folding>
+                <marker date="1422990381000" expanded="true" signature="15771:15875" placeholder="SELECT meta_..wp_postmeta..." />
+                <marker date="1422990381000" expanded="true" signature="16509:16613" placeholder="SELECT post_..wp_postmeta..." />
+                <marker date="1422990381000" expanded="true" signature="36047:36116" placeholder="SELECT optio..wp_options..." />
+                <marker date="1422990381000" expanded="true" signature="120034:120080" placeholder="SELECT id FR..wp_site..." />
+                <marker date="1422990381000" expanded="true" signature="128088:128184" placeholder="SELECT post_..wp_postmeta..." />
+                <marker date="1422990381000" expanded="true" signature="128647:128749" placeholder="SELECT comme..wp_commentmeta..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="date.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.541667" vertical-offset="5627" max-vertical-offset="21210">
+              <caret line="400" column="9" selection-start-line="400" selection-start-column="9" selection-end-line="400" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -191,67 +116,9 @@
       <file leaf-file-name="library-hours-plugin-public.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-51.916668" vertical-offset="389" max-vertical-offset="1800">
-              <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.75" vertical-offset="495" max-vertical-offset="1800">
+              <caret line="55" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="library-hours-plugin-public-display.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12317518" vertical-offset="810" max-vertical-offset="2925">
-              <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-              <folding>
-                <element signature="e#6#144#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-holidays.widget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/widgets/class-holidays.widget.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.875" vertical-offset="0" max-vertical-offset="1125">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#94#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="45" max-vertical-offset="1260">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-library-hours-post-type.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.958334" vertical-offset="67" max-vertical-offset="1215">
-              <caret line="54" column="74" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
-              <folding>
-                <element signature="e#6#93#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpeningHoursHolidays.widget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/widgets/OpeningHoursHolidays.widget.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1560">
-              <caret line="32" column="79" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="79" />
-              <folding>
-                <element signature="e#3#45#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -278,9 +145,11 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/admin/library-hours-admin.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/widgets/class-holidays.widget.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php" />
       </list>
     </option>
   </component>
@@ -289,8 +158,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
-    <option name="y" value="68" />
+    <option name="x" value="14" />
+    <option name="y" value="71" />
     <option name="width" value="1295" />
     <option name="height" value="1230" />
   </component>
@@ -365,6 +234,114 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-opening-hours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-opening-hours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-opening-hours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-opening-hours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,36 +449,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umlib-wp.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umlib-wp.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library-hours-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widgets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -561,7 +508,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="68" width="1295" height="1230" extended-state="0" />
+    <frame x="14" y="71" width="1295" height="1230" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -570,7 +517,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26949808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2980695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -609,43 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1120">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/blank.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1133">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.04147881" vertical-offset="46" max-vertical-offset="1320">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/templates/holidays-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="1635">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/widgets/OpeningHoursOverview.widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2415">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/bigcontact/classes/BigContactWidget.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1133">
@@ -773,49 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-plugin-activator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1133">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/admin/css/library-hours-plugin-admin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="885">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/classes/OpeningPeriod.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="1110">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/wp-opening-hours.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.21731289" vertical-offset="241" max-vertical-offset="1350">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/classes/OpeningHours.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63570786" vertical-offset="0" max-vertical-offset="3885">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,22 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.083333" vertical-offset="2638" max-vertical-offset="6990">
           <caret line="199" column="9" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/widgets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1635">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -872,7 +727,7 @@
         <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1560">
           <caret line="32" column="79" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="79" />
           <folding>
-            <element signature="e#3#45#0#PHP" expanded="true" />
+            <element signature="e#3#45#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -921,14 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1133">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-plugin-loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.97171533" vertical-offset="0" max-vertical-offset="1905">
-          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -993,29 +840,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/wp-opening-hours.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.875" vertical-offset="1710" max-vertical-offset="3225">
-          <caret line="176" column="43" selection-start-line="176" selection-start-column="43" selection-end-line="176" selection-end-column="43" />
+        <state vertical-scroll-proportion="-15.708333" vertical-offset="208" max-vertical-offset="1350">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5602189" vertical-offset="1995" max-vertical-offset="21585">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18935978" vertical-offset="0" max-vertical-offset="1109">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="465" max-vertical-offset="1635">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-51.916668" vertical-offset="389" max-vertical-offset="1800">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.75" vertical-offset="495" max-vertical-offset="1800">
+          <caret line="55" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-plugin-activator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1133">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-plugin-loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9443431" vertical-offset="30" max-vertical-offset="1905">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.458333" vertical-offset="1366" max-vertical-offset="3315">
+          <caret line="122" column="87" selection-start-line="122" selection-start-column="87" selection-end-line="122" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.541667" vertical-offset="5627" max-vertical-offset="21210">
+          <caret line="400" column="9" selection-start-line="400" selection-start-column="9" selection-end-line="400" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875" vertical-offset="180" max-vertical-offset="72225">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="69" selection-end-column="1" />
+          <folding>
+            <marker date="1422990381000" expanded="true" signature="15771:15875" placeholder="SELECT meta_..wp_postmeta..." />
+            <marker date="1422990381000" expanded="true" signature="16509:16613" placeholder="SELECT post_..wp_postmeta..." />
+            <marker date="1422990381000" expanded="true" signature="36047:36116" placeholder="SELECT optio..wp_options..." />
+            <marker date="1422990381000" expanded="true" signature="120034:120080" placeholder="SELECT id FR..wp_site..." />
+            <marker date="1422990381000" expanded="true" signature="128088:128184" placeholder="SELECT post_..wp_postmeta..." />
+            <marker date="1422990381000" expanded="true" signature="128647:128749" placeholder="SELECT comme..wp_commentmeta..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15850145" vertical-offset="0" max-vertical-offset="1041">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12317518" vertical-offset="810" max-vertical-offset="2925">
-          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        <state vertical-scroll-proportion="-15.0" vertical-offset="705" max-vertical-offset="2370">
+          <caret line="71" column="76" selection-start-line="71" selection-start-column="76" selection-end-line="71" selection-end-column="76" />
           <folding>
             <element signature="e#6#144#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.125" vertical-offset="1215" max-vertical-offset="7620">
+          <caret line="110" column="67" selection-start-line="110" selection-start-column="67" selection-end-line="110" selection-end-column="67" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/classes/OpeningPeriod.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.958334" vertical-offset="1" max-vertical-offset="1110">
+          <caret line="50" column="91" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-opening-hours/lib/classes/OpeningHours.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3138685" vertical-offset="2776" max-vertical-offset="3885">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

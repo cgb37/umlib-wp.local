@@ -120,6 +120,9 @@ class Library_Hours_Plugin {
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/library-hours-plugin-public.php';
 
 
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class.openhours.php';
+
+
 		$this->loader = new Library_Hours_Plugin_Loader();
 
 	}
@@ -175,6 +178,9 @@ class Library_Hours_Plugin {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 
 		$this->loader->add_filter( 'single_template', $plugin_public, 'load_custom_post_type_template' );
+
+
+
 	}
 
 	/**
