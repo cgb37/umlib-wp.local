@@ -4809,5 +4809,3 @@ function wp_validate_boolean( $var ) {
 
 	return (bool) $var;
 }
-
-

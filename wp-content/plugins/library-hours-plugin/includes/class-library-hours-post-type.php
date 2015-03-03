@@ -52,7 +52,7 @@ class Library_Hours_Post_Type
 			'label'               => __( 'libhours_post_type', 'text_domain' ),
 			'description'         => __( 'Library Hours for Multiple Branches', 'text_domain' ),
 			'labels'              => $labels,
-			'supports'            => array( 'title', 'editor', 'thumbnail'),
+			'supports'            => array( 'title', 'editor', 'thumbnail', 'page-attributes'),
 			'taxonomies'          => array(),
 			'hierarchical'        => true,
 			'public'              => true,

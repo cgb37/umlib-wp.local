@@ -8,6 +8,8 @@
 
 class Open_Hours {
 
+    private $_post_id;
+
 
     private $_monday;
     private $_tuesday;
@@ -34,7 +36,17 @@ class Open_Hours {
     private $_sunday_close;
 
     private $_time_offset = "18000";
+    private $_current_timestamp;
+    private $_current_weekday;
 
+    private $_open_hour_format = "g:i a";
+    private $_close_hour_format = "g:i a";
+
+    private $_holiday_datetime_format = "D M j, Y g:i a";
+    private $_holiday_date_format = "D M j, Y";
+    private $_holiday_time_format = "g:i a";
+
+    private $_event_datetime_format = "D M j, Y g:i a";
 
     /**
      * Initialize the class and set its properties.
@@ -44,13 +56,23 @@ class Open_Hours {
      */
     public function __construct() {
 
+        $this->setup();
+
+    }
+
+
+    protected function setup() {
+
+        $this->setPostId(null);
+        $this->setCurrentTimestamp(null);
+        $this->setCurrentWeekday(null);
+
     }
 
 
     function set_post_metadata_keys() {
 
         $this->pmd_keys = array(
-
             array("Monday"    => array("open" => "monday_open",    "close" => "monday_close"),),
             array("Tuesday"   => array("open" => "tuesday_open",   "close" => "tuesday_close"),),
             array("Wednesday" => array("open" => "wednesday_open", "close" => "wednesday_close"),),
@@ -58,108 +80,321 @@ class Open_Hours {
             array("Friday"    => array("open" => "friday_open",    "close" => "friday_close"),),
             array("Saturday"  => array("open" => "saturday_open",  "close" => "saturday_close"),),
             array("Sunday"    => array("open" => "sunday_open",    "close" => "sunday_close"),),
-
         );
 
         return $this->pmd_keys;
     }
 
 
-    function get_timestamp($post_id, $key) {
+    function get_post_meta_timestamp($post_id, $key) {
         $timestamp = get_post_meta( $post_id, $key );
         return $timestamp;
     }
 
-    function date_formatter($timestamp) {
-        return date('h:i a', $timestamp + $this->_time_offset);
+    function date_formatter($format, $timestamp) {
+        return date($format, $timestamp + $this->_time_offset);
     }
 
-    function get_time($post_id, $key) {
-        $timestamp = $this->get_timestamp( $post_id, $key );
-
-        $time = $this->date_formatter($timestamp[0]);
-
+    function get_post_meta_time_formatted($post_id, $key) {
+        $timestamp = $this->get_post_meta_timestamp( $post_id, $key );
+        $time = $this->date_formatter("h:i a", $timestamp[0]);
         return $time;
     }
 
-    function get_formatted_times($post_id) {
+    function get_times_formatted() {
 
+        $post_id = $this->getPostId();
         //get the keys for the post metadata
         $keys = $this->set_post_metadata_keys();
 
         $times = array();
         foreach($keys as $datum):
             foreach($datum as $key => $day):
-                $times[] = array($key => array("open" => $this->get_time($post_id, $day['open']), "close" => $this->get_time($post_id, $day['close'])),);
+                $times[] = array(
+                    $key => array(
+                        "open"  => $this->get_post_meta_time_formatted($post_id, $day['open']),
+                        "close" => $this->get_post_meta_time_formatted($post_id, $day['close'])
+                    ),
+                );
             endforeach;
         endforeach;
 
         return $times;
     }
 
-    function is_open() {
 
+    public function is_today() {
+
+        $today = $this->getCurrentWeekday();
+        $keys = $this->set_post_metadata_keys();
+
+        foreach($keys as $datum):
+            foreach($datum as $day => $value):
+                if($today == $day) {
+                    return true;
+                }
+            endforeach;
+        endforeach;
+
+        return false;
+    }
+
+    public function get_holidays() {
+
+        $args = array(
+            'orderby' => 'wpcf-start-date',
+            'order' => 'ASC',
+            'post_id' => $this->getPostId()
+        );
+
+        $holidays = types_child_posts('holiday', $args);
+        return $holidays;
+    }
+
+    public function get_holidays_formatted() {
+
+        $holidays = $this->get_holidays();
+
+        $days = array();
+
+        foreach($holidays as $day) {
+
+            $start = $this->date_formatter($this->_holiday_datetime_format, $day->fields['start-date']);
+            $end   = $this->date_formatter($this->_holiday_datetime_format, $day->fields['end-date']);
+
+            $start_time = $this->date_formatter($this->_holiday_time_format, $day->fields['start-date']);
+            $start_date = $this->date_formatter($this->_holiday_date_format, $day->fields['start-date']);
+
+            $end_time = $this->date_formatter($this->_holiday_time_format, $day->fields['end-date']);
+            $end_date = $this->date_formatter($this->_holiday_date_format, $day->fields['end-date']);
+
+            if($day->fields['holiday-closed'] == 1) {
+                $is_closed = 'Open';
+            } else {
+                $is_closed = 'Closed';
+            }
+
+            $days[] = array(
+                'name'           => $day->post_title,
+                'start-datetime' => $start,
+                'end-datetime'   => $end,
+                'start-time'     => $start_time,
+                'end-time'       => $end_time,
+                'start-date'     => $start_date,
+                'end-date'       => $end_date,
+                'is-closed'      => $is_closed
+            );
+        }
+
+        return $days;
+    }
+
+    public function is_holiday() {
+
+        $holidays = $this->get_holidays();
+
+        $today = $this->getCurrentWeekday();
+        $current_timestamp = $this->getCurrentTimestamp();
+
+        if ( strtolower( date('l', $current_timestamp) ) == strtolower($today) ) {
+            foreach($holidays as $day) {
+
+                $start_date = $this->date_formatter($this->_holiday_date_format, $day->fields['start-date']);
+
+                if(strtolower( date('D M j, Y', $current_timestamp) ) == strtolower($start_date)) {
+                    return true;
+                } elseif($day->fields['start-date'] <= $current_timestamp and $day->fields['end-date'] >= $current_timestamp ){
+                    //closed
+                    return true;
+                }
+            }
+        }
+        return false;
 
     }
 
 
-    function is_between_period($current_time, $open, $close) {
+    public function get_calendar_period_formatted() {
 
-        if ( strtolower( date('l', current_time('timestamp')) ) != $this->day )
-            return false;
+        $data = get_post_meta($this->getPostId());
 
-        return ( $open <= $current_time and $close >= $current_time );
+        $return = array(
+            'semester' => strtoupper($data['wpcf-semester'][0]),
+            'year'     => $data['wpcf-year'][0],
+            'start'    => $this->date_formatter('M j, Y', $data['wpcf-semester-begin'][0]),
+            'end'      => $this->date_formatter('M j, Y', $data['wpcf-semester-end'][0]),
+        );
+        return $return;
     }
+
+
+    public function get_todays_hours_formatted() {
+
+        //is today
+        if($this->is_today() == true) {
+
+            //is today a holiday?
+            if($this->is_holiday() == true) {
+
+                //get post
+                $holidays = $this->get_holidays();
+
+                $current_timestamp = $this->getCurrentTimestamp();
+
+                foreach($holidays as $day) {
+                    $start_date = $this->date_formatter($this->_holiday_date_format, $day->fields['start-date']);
+
+                    if($day->fields['start-date'] <= $current_timestamp and $day->fields['end-date'] >= $current_timestamp ) {
+
+                        $hours = array(
+                            'is_holiday' => true,
+                            'is_closed'  => $day->fields['holiday-closed'],
+                            'open'       => $this->date_formatter("g:i a", $day->fields['start-date']),
+                            'close'      => $this->date_formatter("g:i a", $day->fields['end-date']),
+                        );
+
+
+                    } elseif( (strtolower( date('D M j, Y', $current_timestamp) ) == strtolower($start_date)) and ($day->fields['holiday-closed'] == 1) ) {
+                        $hours = array(
+                            'is_holiday' => true,
+                            'is_closed'  => $day->fields['holiday-closed'],
+                            'open'       => $this->date_formatter("g:i a", $day->fields['start-date']),
+                            'close'      => $this->date_formatter("g:i a", $day->fields['end-date']),
+                        );
+                    } elseif($day->fields['holiday-closed'] == 2) {
+                        $hours = array(
+                            'is_holiday' => true,
+                            'is_closed'  => $day->fields['holiday-closed'],
+                            'open'       => $this->date_formatter("g:i a", $day->fields['start-date']),
+                            'close'      => $this->date_formatter("g:i a", $day->fields['end-date']),
+                        );
+                       // var_dump($day);
+                    }
+                }
+
+            } else {
+
+                $today = strtolower($this->getCurrentWeekday());
+
+                $open_ts = get_post_meta($this->getPostId(), $today.'_open');
+                $open    = $this->date_formatter("g:i a", $open_ts[0]);
+
+                $close_ts = get_post_meta($this->getPostId(), $today.'_close');
+                $close    = $this->date_formatter("g:i a", $close_ts[0]);
+
+                $hours = array(
+                    'is_holiday' => false,
+                    'is_closed' => '1',
+                    'open' => $open,
+                    'close' => $close,
+                );
+            }
+
+            return $hours;
+        }
+        return false;
+    }
+
+
+
+    public function get_events_by_postid() {
+
+        $post_id = $this->getPostId();
+
+        $args = array(
+            'post_id' => $post_id,
+            'orderby' => 'wpcf-start-date',
+            'order' => 'ASC',
+        );
+
+        $events = types_child_posts('event', $args);
+        return $events;
+    }
+
+    public function get_events_formatted() {
+
+        $data = $this->get_events_by_postid();
+
+        $events = array();
+        foreach($data as $event) {
+
+            $events[] = array(
+                'title'          => $event->post_title,
+                'start-datetime' => $this->date_formatter($this->_event_datetime_format, $event->fields['start-date']),
+                'end-datetime'   => $this->date_formatter($this->_event_datetime_format, $event->fields['end-date']),
+                'event-url'      => $event->fields['event-url'],
+            );
+        }
+        return $events;
+    }
+
 
 
     /**
-     * Retrieve the current time based on specified type.
-     *
-     * The 'mysql' type will return the time in the format for MySQL DATETIME field.
-     * The 'timestamp' type will return the current timestamp.
-     * Other strings will be interpreted as PHP date formats (e.g. 'Y-m-d').
-     *
-     * If $gmt is set to either '1' or 'true', then both types will use GMT time.
-     * if $gmt is false, the output is adjusted with the GMT offset in the WordPress option.
-     *
-     * @since 1.0.0
-     *
-     * @param string   $type Type of time to retrieve. Accepts 'mysql', 'timestamp', or PHP date
-     *                       format string (e.g. 'Y-m-d').
-     * @param int|bool $gmt  Optional. Whether to use GMT timezone. Default false.
-     * @return int|string Integer if $type is 'timestamp', string otherwise.
+     * @return mixed
      */
-    function current_time( $type, $gmt = 0 ) {
-        switch ( $type ) {
-            case 'mysql':
-                return ( $gmt ) ? gmdate( 'Y-m-d H:i:s' ) : gmdate( 'Y-m-d H:i:s', ( time() + ( get_option( 'gmt_offset' ) * HOUR_IN_SECONDS ) ) );
-            case 'timestamp':
-                return ( $gmt ) ? time() : time() + ( get_option( 'gmt_offset' ) * HOUR_IN_SECONDS );
-            default:
-                return ( $gmt ) ? date( $type ) : date( $type, time() + ( get_option( 'gmt_offset' ) * HOUR_IN_SECONDS ) );
+    public function getPostId()
+    {
+        return $this->_post_id;
+    }
+
+    /**
+     * @param mixed $post_id
+     */
+    public function setPostId($post_id)
+    {
+        if(!is_null($post_id)) {
+            $this->_post_id = $post_id;
+        } else {
+            $this->_post_id = get_the_ID();
         }
     }
 
 
-    function get_data(){
 
-        $data = array(
 
-            array("Monday"    => array("open" => "07:30:00", "close" => "02:00:00"),),
-            array("Tuesday"   => array("open" => "07:30:00", "close" => "02:00:00"),),
-            array("Wednesday" => array("open" => "07:30:00", "close" => "02:00:00"),),
-            array("Thursday"  => array("open" => "07:30:00", "close" => "02:00:00"),),
-            array("Friday"    => array("open" => "07:30:00", "close" => "02:00:00"),),
-            array("Saturday"  => array("open" => "09:00:00", "close" => "22:00:00"),),
-            array("Sunday"    => array("open" => "09:00:00", "close" => "02:00:00"),),
+    /**
+     * @return mixed
+     */
+    public function getCurrentTimestamp()
+    {
+        return $this->_current_timestamp;
+    }
 
-        );
+    /**
+     * @param mixed $current_timestamp
+     */
+    public function setCurrentTimestamp($current_timestamp)
+    {
+        if(!is_null($current_timestamp)) {
+            $this->_current_timestamp = $current_timestamp;
+        } else {
+            $this->_current_timestamp = current_time('timestamp');
+        }
 
-        return $data;
 
     }
 
+    /**
+     * @return mixed
+     */
+    public function getCurrentWeekday()
+    {
+        return $this->_current_weekday;
+    }
 
+    /**
+     * @param mixed $current_weekday
+     */
+    public function setCurrentWeekday($current_weekday)
+    {
+        if(!is_null($current_weekday)) {
+            $this->_current_weekday = $current_weekday;
+        } else {
+            $this->_current_weekday = get_today();
+        }
+
+    }
 
 
     /**
