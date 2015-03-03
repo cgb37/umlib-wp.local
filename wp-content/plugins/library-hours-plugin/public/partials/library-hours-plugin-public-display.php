@@ -64,8 +64,9 @@ get_header();
         <!--main content-->
         <div class="pure-u-1">
             <div class="breather track_me_Page_Click">
-                <h2>Richter Library</h2>
                 <?php $postmeta = get_post_meta(get_the_ID()); ?>
+                <h2><?php echo the_title(); ?></h2>
+
 
                 <div id="page_lvl_tabs">
                     <ul>
