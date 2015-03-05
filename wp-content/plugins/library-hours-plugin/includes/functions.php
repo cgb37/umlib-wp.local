@@ -9,13 +9,6 @@
 
 
 
-function get_today() {
-    $ts = current_time('timestamp');
-    $today = date('l', $ts);
-    return $today;
-}
-
-
 function is_between_period($current_time, $open, $close) {
 
     if ( strtolower( date('l', current_time('timestamp')) ) != $this->day )

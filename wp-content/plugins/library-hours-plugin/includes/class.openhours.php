@@ -122,6 +122,11 @@ class Open_Hours {
         return $times;
     }
 
+    public function get_current_day() {
+        $ts = current_time('timestamp');
+        $today = date('l', $ts);
+        return $today;
+    }
 
     public function is_today() {
 
@@ -295,7 +300,6 @@ class Open_Hours {
         return false;
     }
 
-    
 
     public function get_events_by_postid() {
 
@@ -340,6 +344,19 @@ class Open_Hours {
         return $data;
     }
 
+
+    public function get_branch_hours() {
+
+        // must be a branch and active
+        //schedule_type
+        //calendar_active
+
+
+
+
+
+
+    }
 
 
     /**
@@ -403,7 +420,7 @@ class Open_Hours {
         if(!is_null($current_weekday)) {
             $this->_current_weekday = $current_weekday;
         } else {
-            $this->_current_weekday = get_today();
+            $this->_current_weekday = $this->get_current_day();
         }
 
     }
