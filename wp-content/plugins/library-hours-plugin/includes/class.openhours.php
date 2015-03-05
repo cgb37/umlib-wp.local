@@ -295,7 +295,7 @@ class Open_Hours {
         return false;
     }
 
-
+    
 
     public function get_events_by_postid() {
 
@@ -326,6 +326,18 @@ class Open_Hours {
             );
         }
         return $events;
+    }
+
+    public function get_printable_hours_pdf() {
+
+        $post_id = $this->getPostId();
+
+        $args = array(
+            'post_id' => $post_id
+        );
+
+        $data = get_post_meta($post_id);
+        return $data;
     }
 
 
