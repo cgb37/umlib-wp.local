@@ -47,7 +47,7 @@ class Open_Hours {
     private $_holiday_time_format = "g:i a";
 
     private $_event_datetime_format = "D M j, g:i a";
-    private $_event_date_format = "D M j";
+    private $_event_date_format = "M j (D)";
     private $_event_time_format = "g:i a";
 
     /**

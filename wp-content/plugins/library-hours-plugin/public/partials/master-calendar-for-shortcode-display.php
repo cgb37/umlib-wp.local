@@ -61,7 +61,7 @@
                             if($key == $openHours->getCurrentWeekday()):
                                 $day = $openHours->get_todays_hours_formatted();
 
-                                echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
+                                echo "<tr style='font-weight: bold; background-color: #ffffe0'><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
                             else:
 
                                 echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
@@ -156,7 +156,7 @@
 
                 ?>
 
-                <?php echo "<tr><td class='time-entry'>". $title." </td><td class='time-entry'>". $event['start-date']." ". $event['start-time']." ".$event['end-time']. "</td></tr>"; ?>
+                <?php echo "<tr><td class='time-entry'>". $title." </td><td class='time-entry'>". $event['start-date']." ". $event['start-time']." - ".$event['end-time']. "</td></tr>"; ?>
             <?php endforeach; ?>
         </table>
 
