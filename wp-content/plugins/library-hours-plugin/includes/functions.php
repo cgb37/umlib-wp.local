@@ -24,25 +24,25 @@ function is_between_period($current_time, $open, $close) {
     return ( $open <= $current_time and $close >= $current_time );
 }
 
-function todays_hours_func( $atts ){
+function master_schedule_func( $atts ){
+
+    $a = shortcode_atts( array(
+        'post_id' => 'post_id',
+    ), $atts);
+
 
     $openHours = new Open_Hours();
+    $openHours->setPostId($a['post_id']);
 
-    $todays_hours = $openHours->get_todays_hours_formatted();
-    $is_closed        = $todays_hours['is_closed'];
-    $is_holiday       = $todays_hours['is_holiday'];
-    $today_open_hour  = $todays_hours['open'];
-    $today_close_hour = $todays_hours['close'];
+    $template_filename = dirname(__FILE__) .'/../public/partials/master-calendar-for-shortcode-display.php';
 
-    if($is_closed == 2) {
-        $return = "<div>Closed</div>";
-    } else {
-        $return = "<div>{$today_open_hour} - {$today_close_hour}</div>";
-
+    if(file_exists($template_filename)) {
+        set_query_var( 'openHours', $openHours );
+        $template = load_template( $template_filename );
     }
 
-    return $return;
+    return $template;
 }
 
 
-add_shortcode( 'todays_hours', 'todays_hours_func' );
+add_shortcode( 'master_schedule', 'master_schedule_func' );

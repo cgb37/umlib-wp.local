@@ -1,0 +1,128 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: cbrownroberts
+ * Date: 3/4/15
+ * Time: 11:44 AM
+ */
+
+?>
+
+<?php
+    $todays_hours = $openHours->get_todays_hours_formatted();
+    $is_closed        = $todays_hours['is_closed'];
+    $is_holiday       = $todays_hours['is_holiday'];
+    $today_open_hour  = $todays_hours['open'];
+    $today_close_hour = $todays_hours['close'];
+
+    $printable_hours = $openHours->get_printable_hours_pdf();
+?>
+
+
+<div id="page_lvl_tabs">
+    <ul>
+        <li class="active"><a href="#tabs-1" rel="tab-1">This Week's Hours</a></li>
+        <li><a href="#tabs-2" rel="tab-2">Exceptions</a></li>
+        <li><a href="#tabs-3" rel="tab-3">Events</a></li>
+        <li><a href="<?php echo $printable_hours['wpcf-printable-hours'][0]; ?>" target="_blank">Printable Hours (.pdf)</a></li>
+    </ul>
+
+    <div class="tab-1 breather">
+        <?php $calendar_period = $openHours->get_calendar_period_formatted(); ?>
+        <h2>
+            <?php echo $calendar_period['semester']; ?> <?php echo $calendar_period['year']; ?>: <?php echo $calendar_period['start']; ?> to <?php echo $calendar_period['end']; ?>
+        </h2>
+
+        <?php $data = $openHours->get_times_formatted(); ?>
+        <div id="schedule_box">
+            <p class="display_date">
+            <table class="form_listing" style="background-color: #FFF;">
+                <?php foreach($data as $datum): ?>
+                    <?php foreach($datum as $key => $day): ?>
+                        <tr><td class="time-entry"><?php echo $key; ?></td><td class="time-entry"> <?php echo $day['open']; ?> - <?php echo $day['close']; ?></td></tr>
+                    <?php endforeach; ?>
+                <?php endforeach; ?>
+            </table>
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="tab-2 breather" style="display: none;">
+        <h2>
+            Exceptions to the Richter Library Building Hours<br /><?php echo $calendar_period['semester']; ?> <?php echo $calendar_period['year']; ?>
+        </h2>
+
+        <div>
+            <?php $holidays = $openHours->get_holidays_formatted(); ?>
+            <?php
+
+            function array_sort_by_column(&$array, $column, $direction = SORT_ASC) {
+                $reference_array = array();
+
+                foreach($array as $key => $row) {
+                    $reference_array[$key] = strtotime($row[$column]);
+                }
+
+                array_multisort($reference_array, $direction, $array);
+            }
+
+            ?>
+
+            <?php  array_sort_by_column($holidays, 'start-datetime'); ?>
+
+            <table class="form_listing" style="background-color: #FFF;">
+                <tr class="even">
+                    <td class="time-entry"><strong>Day</strong></td>
+                    <td class="time-entry"><strong>Library Hours</strong></td>
+                </tr>
+
+
+                <?php foreach($holidays as $holiday): ?>
+
+                    <tr>
+                        <?php
+                        if($holiday['is-closed'] == 'Closed') {
+
+                            if($holiday['start-date'] == $holiday['end-date']) {
+                                echo "<td class='time-entry'>". $holiday['name']. "</td><td class='time-entry'> ".$holiday['start-date']." Closed</td>";
+                            } else {
+                                echo "<td class='time-entry'>". $holiday['name']. "</td><td class='time-entry'> ".$holiday['start-date']. " - ".$holiday['end-date']." Closed</td>";
+                            }
+
+                        } else {
+                            echo "<td class='time-entry'>". $holiday['name']."</td><td class='time-entry'> ". $holiday['start-datetime']." - ".$holiday['end-datetime']." ".$holiday['is-closed']."</td>";
+                        }
+                        ?>
+                    </tr>
+                <?php endforeach; ?>
+
+            </table>
+        </div>
+    </div>
+
+    <div class="tab-3 breather" style="display: none;">
+        <br />
+        <?php $events = $openHours->get_events_formatted(); ?>
+        <?php  array_sort_by_column($events, 'start-datetime'); ?>
+        <table class="form_listing" style="background-color: #FFF;">
+            <?php foreach($events as $event): ?>
+                <?php
+                if($event['event-url'] != "") {
+
+                    $title = "<a href='{$event['event-url']}'>{$event['title']}</a>";
+                } else {
+                    $title = $event['title'];
+                }
+
+                ?>
+
+                <?php echo "<tr><td class='time-entry'>". $title." ". $event['start-datetime']." ".$event['end-datetime']. "</td></tr>"; ?>
+            <?php endforeach; ?>
+        </table>
+
+
+    </div>
+
+</div><!--end tabs area-->
