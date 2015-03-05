@@ -43,10 +43,12 @@ class Open_Hours {
     private $_close_hour_format = "g:i a";
 
     private $_holiday_datetime_format = "D M j, Y g:i a";
-    private $_holiday_date_format = "D M j, Y";
+    private $_holiday_date_format = "M j (D)";
     private $_holiday_time_format = "g:i a";
 
-    private $_event_datetime_format = "D M j, Y g:i a";
+    private $_event_datetime_format = "D M j, g:i a";
+    private $_event_date_format = "D M j";
+    private $_event_time_format = "g:i a";
 
     /**
      * Initialize the class and set its properties.
@@ -97,7 +99,7 @@ class Open_Hours {
 
     function get_post_meta_time_formatted($post_id, $key) {
         $timestamp = $this->get_post_meta_timestamp( $post_id, $key );
-        $time = $this->date_formatter("h:i a", $timestamp[0]);
+        $time = $this->date_formatter("g:i a", $timestamp[0]);
         return $time;
     }
 
@@ -326,6 +328,10 @@ class Open_Hours {
                 'title'          => $event->post_title,
                 'start-datetime' => $this->date_formatter($this->_event_datetime_format, $event->fields['start-date']),
                 'end-datetime'   => $this->date_formatter($this->_event_datetime_format, $event->fields['end-date']),
+                'start-date'     => $this->date_formatter($this->_event_date_format, $event->fields['start-date']),
+                'end-date'       => $this->date_formatter($this->_event_date_format, $event->fields['end-date']),
+                'start-time'     => $this->date_formatter($this->_event_time_format, $event->fields['start-date']),
+                'end-time'       => $this->date_formatter($this->_event_time_format, $event->fields['end-date']),
                 'event-url'      => $event->fields['event-url'],
             );
         }

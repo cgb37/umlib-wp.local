@@ -56,7 +56,22 @@
             <table class="form_listing" style="background-color: #FFF;">
                 <?php foreach($data as $datum): ?>
                     <?php foreach($datum as $key => $day): ?>
-                        <tr><td class="time-entry"><?php echo $key; ?></td><td class="time-entry"> <?php echo $day['open']; ?> - <?php echo $day['close']; ?></td></tr>
+
+                        <?php
+                            if($key == $openHours->getCurrentWeekday()):
+                                $day = $openHours->get_todays_hours_formatted();
+
+                                echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
+                            else:
+
+                                echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
+
+                            endif;
+
+
+                        ?>
+
+
                     <?php endforeach; ?>
                 <?php endforeach; ?>
             </table>
@@ -110,7 +125,7 @@
                             }
 
                         } else {
-                            echo "<td class='time-entry'>". $holiday['name']."</td><td class='time-entry'> ". $holiday['start-datetime']." - ".$holiday['end-datetime']." ".$holiday['is-closed']."</td>";
+                            echo "<td class='time-entry'>". $holiday['name']."</td><td class='time-entry'> ".$holiday['start-date']." ".$holiday['start-time']." - ".$holiday['end-time']." ".$holiday['is-closed']."</td>";
                         }
                         ?>
                     </tr>
@@ -127,8 +142,8 @@
         <?php  array_sort_by_column($events, 'start-datetime'); ?>
         <table class="form_listing" style="background-color: #FFF;">
             <tr class="even">
-                <td class="time-entry"><strong>Day</strong></td>
-                <td class="time-entry"><strong>Library Hours</strong></td>
+                <td class="time-entry"><strong>Event</strong></td>
+                <td class="time-entry"><strong>Date & Time</strong></td>
             </tr>
             <?php foreach($events as $event): ?>
                 <?php
@@ -141,7 +156,7 @@
 
                 ?>
 
-                <?php echo "<tr><td class='time-entry'>". $title." </td><td class='time-entry'>". $event['start-datetime']." ".$event['end-datetime']. "</td></tr>"; ?>
+                <?php echo "<tr><td class='time-entry'>". $title." </td><td class='time-entry'>". $event['start-date']." ". $event['start-time']." ".$event['end-time']. "</td></tr>"; ?>
             <?php endforeach; ?>
         </table>
 
