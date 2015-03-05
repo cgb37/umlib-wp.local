@@ -17,8 +17,27 @@
 
     $printable_hours = $openHours->get_printable_hours_pdf();
 ?>
+<h3><?php echo the_title(); ?> Today's Hours:
+    <?php
+
+    if($todays_hours['is_holiday'] == true) {
+        if($todays_hours['is_closed'] == 2) {
+            echo 'Closed';
+        } else {
+            echo $todays_hours['open']." - ".$todays_hours['close'];
+        }
+    } else {
+        echo $todays_hours['open']." - ".$todays_hours['close'];
+    }
+
+    ?></h3>
 
 
+<?php $calendar_period = $openHours->get_calendar_period_formatted(); ?>
+<h4>
+    <?php echo $calendar_period['semester']; ?> <?php echo $calendar_period['year']; ?>: <?php echo $calendar_period['start']; ?> to <?php echo $calendar_period['end']; ?>
+</h4>
+<br/>
 <div id="page_lvl_tabs">
     <ul>
         <li class="active"><a href="#tabs-1" rel="tab-1">This Week's Hours</a></li>
@@ -28,10 +47,8 @@
     </ul>
 
     <div class="tab-1 breather">
-        <?php $calendar_period = $openHours->get_calendar_period_formatted(); ?>
-        <h2>
-            <?php echo $calendar_period['semester']; ?> <?php echo $calendar_period['year']; ?>: <?php echo $calendar_period['start']; ?> to <?php echo $calendar_period['end']; ?>
-        </h2>
+
+        <br/>
 
         <?php $data = $openHours->get_times_formatted(); ?>
         <div id="schedule_box">
@@ -50,9 +67,10 @@
 
 
     <div class="tab-2 breather" style="display: none;">
-        <h2>
-            Exceptions to the Richter Library Building Hours<br /><?php echo $calendar_period['semester']; ?> <?php echo $calendar_period['year']; ?>
-        </h2>
+        <br/>
+        <h5>
+            Exceptions to the Richter Library Building Hours
+        </h5>
 
         <div>
             <?php $holidays = $openHours->get_holidays_formatted(); ?>
@@ -103,10 +121,15 @@
     </div>
 
     <div class="tab-3 breather" style="display: none;">
-        <br />
+        <br/>
+        <h5>Events</h5>
         <?php $events = $openHours->get_events_formatted(); ?>
         <?php  array_sort_by_column($events, 'start-datetime'); ?>
         <table class="form_listing" style="background-color: #FFF;">
+            <tr class="even">
+                <td class="time-entry"><strong>Day</strong></td>
+                <td class="time-entry"><strong>Library Hours</strong></td>
+            </tr>
             <?php foreach($events as $event): ?>
                 <?php
                 if($event['event-url'] != "") {
@@ -118,7 +141,7 @@
 
                 ?>
 
-                <?php echo "<tr><td class='time-entry'>". $title." ". $event['start-datetime']." ".$event['end-datetime']. "</td></tr>"; ?>
+                <?php echo "<tr><td class='time-entry'>". $title." </td><td class='time-entry'>". $event['start-datetime']." ".$event['end-datetime']. "</td></tr>"; ?>
             <?php endforeach; ?>
         </table>
 

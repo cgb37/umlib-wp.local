@@ -17,7 +17,7 @@ function is_between_period($current_time, $open, $close) {
     return ( $open <= $current_time and $close >= $current_time );
 }
 
-function master_schedule_func( $atts ){
+function master_calendar_func( $atts ){
 
     $a = shortcode_atts( array(
         'post_id' => 'post_id',
@@ -38,4 +38,4 @@ function master_schedule_func( $atts ){
 }
 
 
-add_shortcode( 'master_schedule', 'master_schedule_func' );
+add_shortcode( 'master_calendar', 'master_calendar_func' );

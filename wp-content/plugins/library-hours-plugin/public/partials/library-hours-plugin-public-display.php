@@ -65,7 +65,7 @@ get_header();
         <div class="pure-u-1">
             <div class="breather track_me_Page_Click">
 
-                <h2><?php echo the_title(); ?></h2>
+
 
                 <div><?php echo the_content(); ?></div>
 

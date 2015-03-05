@@ -224,10 +224,10 @@ class Open_Hours {
         $data = get_post_meta($this->getPostId());
 
         $return = array(
-            'semester' => strtoupper($data['wpcf-semester'][0]),
-            'year'     => $data['wpcf-year'][0],
-            'start'    => $this->date_formatter('M j, Y', $data['wpcf-semester-begin'][0]),
-            'end'      => $this->date_formatter('M j, Y', $data['wpcf-semester-end'][0]),
+            'semester' => strtoupper($data['semester'][0]),
+            'year'     => $data['year'][0],
+            'start'    => $this->date_formatter('M j, Y', strtotime($data['semester_begin'][0])),
+            'end'      => $this->date_formatter('M j, Y', strtotime($data['semester_end'][0])),
         );
         return $return;
     }
@@ -350,12 +350,35 @@ class Open_Hours {
         // must be a branch and active
         //schedule_type
         //calendar_active
+        $today = $this->getCurrentTimestamp();
+
+        $args = array(
+            'post_type' => 'libhours_post_type',
+
+            'meta_query' => array(
+                'relation' => 'AND',
+                array(
+                    'key' => 'calendar_active',
+                    'value' => 'yes',
+                ),
+
+                array(
+                    'key' => 'schedule_type',
+                    'value' => 'branch',
+                )
 
 
 
+            )
+        );
+        $query = new WP_Query( $args );
 
+        $post_id = $query->posts[0]->ID;
 
+        $this->setPostId($post_id);
+        $data = $this->get_todays_hours_formatted();
 
+        return $data;
     }
 
 
