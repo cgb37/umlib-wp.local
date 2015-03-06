@@ -51,15 +51,32 @@ $rlib_img = $many_libraries[$key2][2];
                     <div class="pure-u-1 pure-u-md-1-5 visible-desktop" id="invisible-place">&nbsp;</div>
 
                     <!--show hours only on homepage-->
-                    <?php if (IS_INDEX) {
+
+                    <?php
+                    if (IS_INDEX) {
                         $get_date = date("Y-m-d");
                         $weekday = date("l");
 
-                        $today = get_schedule($get_date, $weekday);
-                        ?>
+                        $openHours = new Open_Hours();
+                        $today = $openHours->get_branch_hours();
+
+                        $todays_hours = array();
+
+                    ?>
                         <div class="pure-u-1 pure-u-md-1-5 hours-block">
                             <img src="<?php print THEME_BASE_DIR; ?>/images/clock_green.png" alt="clock" class="visible-desktop" />
-                            <span class="header-text hours tour_1"><a href="<?php print PATH_FROM_ROOT; ?>/hours/" title="Click to see more hours"><span class="lib-label">Richter Hours:</span><br class="fake-break" /> <span class="lib-label-time"><?php print $today; ?></span></a></span>
+                            <span class="header-text hours tour_1"><a href="<?php print PATH_FROM_ROOT; ?>/hours/" title="Click to see more hours"><span class="lib-label">Richter Hours:</span><br class="fake-break" /> <span class="lib-label-time"> <?php
+                                        if($today['is_holiday'] == true) {
+                                            if($today['is_closed'] == 2) {
+                                                echo 'Closed';
+                                            } else {
+                                                echo $today['open']." - ".$today['close'];
+                                            }
+                                        } else {
+                                            echo $today['open']." - ".$today['close'];
+                                        }
+
+                                        ?></span></a></span>
                         </div>
                     <?php } ?>
 
