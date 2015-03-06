@@ -61,15 +61,15 @@
                             if($key == $openHours->getCurrentWeekday()):
                                 $day = $openHours->get_todays_hours_formatted();
 
+                                if($day['is_closed'] == true) {
+                                    $display_hours = 'Closed';
+                                } else {
+                                    $display_hours = $day['open']." - ".$day['close'];
+                                }
+
                                 if($openHours->is_holiday() == true) {
                                     $asterisk = "*";
                                     $asterisk_def = "<p class='small'>* An exception to the normal weekly schedule. See Exceptions for more information.</p>";
-
-                                    if($day['is_closed'] == true) {
-                                        $display_hours = 'Closed';
-                                    } else {
-                                        $display_hours = $day['open']." - ".$day['close'];
-                                    }
 
                                 } else {
                                     $asterisk = "";
