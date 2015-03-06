@@ -63,8 +63,10 @@
 
                                 if($openHours->is_holiday() == true) {
                                     $asterisk = "*";
+                                    $asterisk_def = "<p class='small'>* An exception to the normal weekly schedule. See Exceptions for more information.</p>";
                                 } else {
                                     $asterisk = "";
+                                    $asterisk_def = "";
                                 }
 
                                 echo "<tr style='font-weight: bold; background-color: #ffffe0'><td class='time-entry'>{$key}</td><td>" . date("M j", current_time('timestamp'))  ."{$asterisk}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
@@ -82,7 +84,8 @@
                 <?php endforeach; ?>
             </table>
             </p>
-            <p class="small">* An exception to the normal weekly schedule. See Exceptions for more information.</p>
+            <?php echo $asterisk_def ?>
+
         </div>
     </div>
 

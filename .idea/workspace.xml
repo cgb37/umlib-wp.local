@@ -40,8 +40,8 @@
       <file leaf-file-name="master-calendar-for-shortcode-display.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7279793" vertical-offset="192" max-vertical-offset="2670">
-              <caret line="69" column="188" selection-start-line="69" selection-start-column="188" selection-end-line="69" selection-end-column="188" />
+            <state vertical-scroll-proportion="0.9481865" vertical-offset="192" max-vertical-offset="2715">
+              <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -49,8 +49,10 @@
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <marker date="1425670755000" expanded="true" signature="1449:1466" placeholder="..." />
-                <marker date="1425670755000" expanded="true" signature="2269:2313" placeholder="..." />
+                <marker date="1425671050000" expanded="true" signature="1449:1466" placeholder="..." />
+                <marker date="1425671050000" expanded="true" signature="2484:2528" placeholder="..." />
+                <marker date="1425671050000" expanded="true" signature="3270:3345" placeholder="..." />
+                <marker date="1425671050000" expanded="true" signature="3360:3922" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -891,8 +893,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7279793" vertical-offset="192" max-vertical-offset="2670">
-          <caret line="69" column="188" selection-start-line="69" selection-start-column="188" selection-end-line="69" selection-end-column="188" />
+        <state vertical-scroll-proportion="0.9481865" vertical-offset="192" max-vertical-offset="2715">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
           <folding>
             <element signature="e#6#94#0#PHP" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -900,8 +902,10 @@
             <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <marker date="1425670755000" expanded="true" signature="1449:1466" placeholder="..." />
-            <marker date="1425670755000" expanded="true" signature="2269:2313" placeholder="..." />
+            <marker date="1425671050000" expanded="true" signature="1449:1466" placeholder="..." />
+            <marker date="1425671050000" expanded="true" signature="2484:2528" placeholder="..." />
+            <marker date="1425671050000" expanded="true" signature="3270:3345" placeholder="..." />
+            <marker date="1425671050000" expanded="true" signature="3360:3922" placeholder="..." />
           </folding>
         </state>
       </provider>
