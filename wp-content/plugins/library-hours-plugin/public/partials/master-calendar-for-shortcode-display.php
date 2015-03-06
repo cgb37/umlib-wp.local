@@ -69,10 +69,10 @@
                                     $asterisk_def = "";
                                 }
 
-                                echo "<tr style='font-weight: bold; background-color: #ffffe0'><td class='time-entry'>{$key}</td><td>" . date("M j", current_time('timestamp'))  ."{$asterisk}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
+                                echo "<tr style='font-weight: bold; background-color: #ffffe0'><td class='time-entry'>{$key}{$asterisk}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
                             else:
 
-                                echo "<tr><td class='time-entry'>{$key}</td><td>".date("M j", current_time('timestamp'))."</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
+                                echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
 
                             endif;
 
