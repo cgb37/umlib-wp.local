@@ -17,7 +17,7 @@
 
     $printable_hours = $openHours->get_printable_hours_pdf();
 ?>
-<h3><?php echo the_title(); ?> Today's Hours:
+<h3>Today's Hours:
     <?php
 
     if($todays_hours['is_holiday'] == true) {
@@ -61,10 +61,16 @@
                             if($key == $openHours->getCurrentWeekday()):
                                 $day = $openHours->get_todays_hours_formatted();
 
-                                echo "<tr style='font-weight: bold; background-color: #ffffe0'><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
+                                if($openHours->is_holiday() == true) {
+                                    $asterisk = "*";
+                                } else {
+                                    $asterisk = "";
+                                }
+
+                                echo "<tr style='font-weight: bold; background-color: #ffffe0'><td class='time-entry'>{$key}</td><td>" . date("M j", current_time('timestamp'))  ."{$asterisk}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
                             else:
 
-                                echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
+                                echo "<tr><td class='time-entry'>{$key}</td><td>".date("M j", current_time('timestamp'))."</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
 
                             endif;
 
@@ -76,6 +82,7 @@
                 <?php endforeach; ?>
             </table>
             </p>
+            <p class="small">* An exception to the normal weekly schedule. See Exceptions for more information.</p>
         </div>
     </div>
 
@@ -125,7 +132,7 @@
                             }
 
                         } else {
-                            echo "<td class='time-entry'>". $holiday['name']."</td><td class='time-entry'> ".$holiday['start-date']." ".$holiday['start-time']." - ".$holiday['end-time']." ".$holiday['is-closed']."</td>";
+                            echo "<td class='time-entry'>". $holiday['name']."</td><td class='time-entry'> ".$holiday['start-date']." ".$holiday['start-time']." - ".$holiday['end-time']."</td>";
                         }
                         ?>
                     </tr>

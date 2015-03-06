@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7656438d-9576-4303-b8b3-b012c694f0dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php" />
     </list>
     <ignored path="umlib-wp.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,21 +30,27 @@
       <file leaf-file-name="library-hours-plugin-public-display.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1995">
+            <state vertical-scroll-proportion="-41.875" vertical-offset="0" max-vertical-offset="1995">
               <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master-calendar-for-shortcode-display.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="master-calendar-for-shortcode-display.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2565">
-              <caret line="158" column="148" selection-start-line="158" selection-start-column="148" selection-end-line="158" selection-end-column="148" />
+            <state vertical-scroll-proportion="0.7279793" vertical-offset="192" max-vertical-offset="2670">
+              <caret line="69" column="188" selection-start-line="69" selection-start-column="188" selection-end-line="69" selection-end-column="188" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
-                <marker date="1425589224000" expanded="true" signature="1476:1493" placeholder="..." />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <marker date="1425670755000" expanded="true" signature="1449:1466" placeholder="..." />
+                <marker date="1425670755000" expanded="true" signature="2269:2313" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -54,7 +59,7 @@
       <file leaf-file-name="header_nav_inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="5040">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="930" max-vertical-offset="5040">
               <caret line="62" column="17" selection-start-line="54" selection-start-column="16" selection-end-line="62" selection-end-column="17" />
               <folding />
             </state>
@@ -73,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48761743" vertical-offset="179" max-vertical-offset="1425">
+            <state vertical-scroll-proportion="-23.791666" vertical-offset="179" max-vertical-offset="1425">
               <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
               <folding>
                 <element signature="e#7#95#0#PHP" expanded="true" />
@@ -155,9 +160,9 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php" />
       </list>
     </option>
   </component>
@@ -840,30 +845,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php">
+    <entry file="file://$PROJECT_DIR$/wp-includes/category-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="5040">
-          <caret line="62" column="17" selection-start-line="54" selection-start-column="16" selection-end-line="62" selection-end-column="17" />
+        <state vertical-scroll-proportion="-16.583334" vertical-offset="18757" max-vertical-offset="21090">
+          <caret line="1282" column="9" selection-start-line="1282" selection-start-column="9" selection-end-line="1282" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.791666" vertical-offset="179" max-vertical-offset="1425">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="e#7#95#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1995">
+        <state vertical-scroll-proportion="-41.875" vertical-offset="0" max-vertical-offset="1995">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2565">
-          <caret line="158" column="148" selection-start-line="158" selection-start-column="148" selection-end-line="158" selection-end-column="148" />
-          <folding>
-            <element signature="e#6#94#0#PHP" expanded="true" />
-            <marker date="1425589224000" expanded="true" signature="1476:1493" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,20 +881,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/category-template.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.583334" vertical-offset="18757" max-vertical-offset="21090">
-          <caret line="1282" column="9" selection-start-line="1282" selection-start-column="9" selection-end-line="1282" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="5040">
+          <caret line="62" column="17" selection-start-line="54" selection-start-column="16" selection-end-line="62" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48761743" vertical-offset="179" max-vertical-offset="1425">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.7279793" vertical-offset="192" max-vertical-offset="2670">
+          <caret line="69" column="188" selection-start-line="69" selection-start-column="188" selection-end-line="69" selection-end-column="188" />
           <folding>
-            <element signature="e#7#95#0#PHP" expanded="true" />
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <marker date="1425670755000" expanded="true" signature="1449:1466" placeholder="..." />
+            <marker date="1425670755000" expanded="true" signature="2269:2313" placeholder="..." />
           </folding>
         </state>
       </provider>
