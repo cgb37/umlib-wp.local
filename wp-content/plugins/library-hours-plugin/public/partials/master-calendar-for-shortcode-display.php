@@ -79,7 +79,7 @@
                                 echo "<tr style='font-weight: bold; background-color: #ffffe0'><td class='time-entry'>{$key}{$asterisk}</td><td class='time-entry'>  {$display_hours} </td></tr>";
                             else:
 
-                                echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
+                                echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$display_hours} </td></tr>";
 
                             endif;
 
