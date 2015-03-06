@@ -38,34 +38,35 @@ $rlib_img = $many_libraries[$key2][2];
   <div id="supernav" class="track_me_TopNavigation_Click" >
     <div id="superzone">
       <div id="logo"><a href="<?php print PATH_FROM_ROOT; ?>/index.php"><img src="<?php print THEME_BASE_DIR; ?>/images/logo.png" alt="University of Miami Libraries" border="0" /></a></div>
-        <?php if (IS_INDEX): ?>
+
         <?php
-        $get_date = date("Y-m-d");
-        $weekday = date("l");
+            if (IS_INDEX) {
+                $get_date = date("Y-m-d");
+                $weekday = date("l");
 
-        $openHours = new Open_Hours();
-        $today = $openHours->get_branch_hours();
+                $openHours = new Open_Hours();
+                $today = $openHours->get_branch_hours();
 
-        $todays_hours = array();
-
-      ?>
-
-        <div class="icon"><img src="<?php print THEME_BASE_DIR; ?>/images/clock_green.png" alt="clock" /></div>
-        <div class="text hours tour_1" style="margin-right: 50px;"><a href="<?php print PATH_FROM_ROOT; ?>/hours/" title="Click to see more hours">Richter hours:<br />
-                <?php
-                if($today['is_holiday'] == true) {
-                    if($today['is_closed'] == 2) {
-                        echo 'Closed';
+                $todays_hours = array();
+            }
+        ?>
+        <?php if (IS_INDEX) { ?>
+            <div class="icon"><img src="<?php print THEME_BASE_DIR; ?>/images/clock_green.png" alt="clock" /></div>
+            <div class="text hours tour_1" style="margin-right: 50px;"><a href="<?php print PATH_FROM_ROOT; ?>/hours/" title="Click to see more hours">Richter hours:<br />
+                    <?php
+                    if($today['is_holiday'] == true) {
+                        if($today['is_closed'] == 2) {
+                            echo 'Closed';
+                        } else {
+                            echo $today['open']." - ".$today['close'];
+                        }
                     } else {
                         echo $today['open']." - ".$today['close'];
                     }
-                } else {
-                    echo $today['open']." - ".$today['close'];
-                }
 
-                ?></a>
-        </div>
-        <?php endif; ?>
+                    ?></a>
+            </div>
+        <?php } ?>
 
       <div class="icon"><img src="<?php print THEME_BASE_DIR; ?>/images/question_green.png" alt="ask a librarian" /></div>
       <div class="text tour_2"><a href="<?php print PATH_FROM_ROOT; ?>/ask-a-librarian/">Ask a Librarian</a></div>
