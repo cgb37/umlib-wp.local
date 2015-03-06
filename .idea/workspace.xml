@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7656438d-9576-4303-b8b3-b012c694f0dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="umlib-wp.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,57 +28,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="library-hours-plugin-public-display.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="library-hours-plugin-public-display.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37249285" vertical-offset="615" max-vertical-offset="3840">
-              <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1995">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master-calendar-for-shortcode-display.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2565">
+              <caret line="158" column="148" selection-start-line="158" selection-start-column="148" selection-end-line="158" selection-end-column="148" />
               <folding>
-                <marker date="1425394515000" expanded="true" signature="4665:4985" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="5363:5420" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="5714:6141" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="5767:5796" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="5767:5924" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="5832:5855" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="5856:6141" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="5924:6141" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="6555:6569" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="6570:6688" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="6817:7507" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="7594:7617" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="7618:8102" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="7668:7886" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="8003:8102" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="9295:9309" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="9310:9482" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="9564:9587" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="9588:9734" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="10381:13076" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="10438:11902" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="10485:11875" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="10623:11844" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="10673:11010" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="10726:10792" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="10850:10972" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="11059:11293" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="11343:11551" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="11600:11807" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="11959:13053" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="12006:13026" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="12139:12995" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="12189:12413" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="12462:12685" placeholder="..." />
-                <marker date="1425394515000" expanded="true" signature="12735:12958" placeholder="..." />
+                <element signature="e#6#94#0#PHP" expanded="true" />
+                <marker date="1425589224000" expanded="true" signature="1476:1493" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class-library-hours-post-type.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php">
+      <file leaf-file-name="header_nav_inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-33.291668" vertical-offset="56" max-vertical-offset="1155">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="5040">
+              <caret line="62" column="17" selection-start-line="54" selection-start-column="16" selection-end-line="62" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -87,8 +64,8 @@
       <file leaf-file-name="class.openhours.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="3810" max-vertical-offset="11145">
-              <caret line="261" column="67" selection-start-line="261" selection-start-column="67" selection-end-line="261" selection-end-column="67" />
+            <state vertical-scroll-proportion="-28.75" vertical-offset="45" max-vertical-offset="12015">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
               </folding>
@@ -96,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="795">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.48761743" vertical-offset="179" max-vertical-offset="1425">
+              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
               <folding>
                 <element signature="e#7#95#0#PHP" expanded="true" />
               </folding>
@@ -108,11 +85,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="library-hours.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/library-hours.php">
+      <file leaf-file-name="category-template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/category-template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0416665" vertical-offset="131" max-vertical-offset="1215">
-              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+            <state vertical-scroll-proportion="-16.583334" vertical-offset="18757" max-vertical-offset="21090">
+              <caret line="1282" column="9" selection-start-line="1282" selection-start-column="9" selection-end-line="1282" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="library-hours-plugin-public.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1800">
+              <caret line="108" column="46" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="library-hours-plugin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="3405">
+              <caret line="185" column="105" selection-start-line="185" selection-start-column="105" selection-end-line="185" selection-end-column="105" />
               <folding />
             </state>
           </provider>
@@ -121,7 +118,7 @@
       <file leaf-file-name="library-hours-admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/admin/library-hours-admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-43.375" vertical-offset="564" max-vertical-offset="1770">
+            <state vertical-scroll-proportion="0.0" vertical-offset="564" max-vertical-offset="1770">
               <caret line="115" column="101" selection-start-line="115" selection-start-column="101" selection-end-line="115" selection-end-column="101" />
               <folding />
             </state>
@@ -153,12 +150,14 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.holiday.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.event.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openperiod.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/umiami/splash_hours.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" />
       </list>
     </option>
   </component>
@@ -167,10 +166,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="77" />
-    <option name="width" value="1302" />
-    <option name="height" value="1230" />
+    <option name="x" value="81" />
+    <option name="y" value="40" />
+    <option name="width" value="1972" />
+    <option name="height" value="1341" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -195,6 +194,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,6 +224,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,7 +395,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,7 +453,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="77" width="1302" height="1230" extended-state="0" />
+    <frame x="81" y="40" width="1972" height="1341" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -445,7 +462,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31666666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2119171" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -505,34 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hours-of-operation/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3841241" vertical-offset="104" max-vertical-offset="1380">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hours-of-operation/templates/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6979927" vertical-offset="0" max-vertical-offset="2265">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/hours-of-operation/hours-of-operation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.156863" vertical-offset="118" max-vertical-offset="1335">
-          <caret line="56" column="81" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/types/embedded/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.717154" vertical-offset="9554" max-vertical-offset="10650">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/hours-of-operation/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20529197" vertical-offset="0" max-vertical-offset="1096">
@@ -712,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1084">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,9 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1422985005000" expanded="true" signature="-1:-1" placeholder="SELECT excep..schedule_exceptions..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,9 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1425327429000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..schedule_exceptions..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,16 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665" vertical-offset="13520" max-vertical-offset="32760">
           <caret line="924" column="21" selection-start-line="924" selection-start-column="13" selection-end-line="924" selection-end-column="21" />
-          <folding>
-            <element signature="e#6#178#0#PHP" expanded="true" />
-            <marker date="1418750124000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1418750124000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1418750124000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1418750124000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1418750124000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1418750124000" expanded="true" signature="-1:-1" placeholder="SELECT meta_..wp_postmeta..." />
-            <marker date="1418750124000" expanded="true" signature="-1:-1" placeholder="SELECT ID, p..wp_posts..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1084">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5377358" vertical-offset="0" max-vertical-offset="1060">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.24528302" vertical-offset="260" max-vertical-offset="1320">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1060">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19770774" vertical-offset="858" max-vertical-offset="1905">
           <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1084">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,15 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.070754714" vertical-offset="0" max-vertical-offset="1060">
           <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.022922637" vertical-offset="729" max-vertical-offset="1800">
-          <caret line="55" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,42 +792,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.375" vertical-offset="2160" max-vertical-offset="5700">
           <caret line="175" column="64" selection-start-line="175" selection-start-column="50" selection-end-line="175" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/library-hours.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0416665" vertical-offset="131" max-vertical-offset="1215">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/admin/library-hours-admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-43.375" vertical-offset="564" max-vertical-offset="1770">
+        <state vertical-scroll-proportion="0.0" vertical-offset="564" max-vertical-offset="1770">
           <caret line="115" column="101" selection-start-line="115" selection-start-column="101" selection-end-line="115" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="3810" max-vertical-offset="11145">
-          <caret line="261" column="67" selection-start-line="261" selection-start-column="67" selection-end-line="261" selection-end-column="67" />
-          <folding>
-            <element signature="e#6#94#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-0.43867925" vertical-offset="465" max-vertical-offset="1530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/library-hours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13679245" vertical-offset="155" max-vertical-offset="1215">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1800">
+          <caret line="108" column="46" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9942693" vertical-offset="1569" max-vertical-offset="3405">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="3405">
           <caret line="185" column="105" selection-start-line="185" selection-start-column="105" selection-end-line="185" selection-end-column="105" />
           <folding />
         </state>
@@ -882,60 +837,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-33.291668" vertical-offset="56" max-vertical-offset="1155">
           <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="5040">
+          <caret line="62" column="17" selection-start-line="54" selection-start-column="16" selection-end-line="62" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1995">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2565">
+          <caret line="158" column="148" selection-start-line="158" selection-start-column="148" selection-end-line="158" selection-end-column="148" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <marker date="1425589224000" expanded="true" signature="1476:1493" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.75" vertical-offset="45" max-vertical-offset="12015">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/category-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.583334" vertical-offset="18757" max-vertical-offset="21090">
+          <caret line="1282" column="9" selection-start-line="1282" selection-start-column="9" selection-end-line="1282" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="795">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.48761743" vertical-offset="179" max-vertical-offset="1425">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
           <folding>
             <element signature="e#7#95#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37249285" vertical-offset="615" max-vertical-offset="3840">
-          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
-          <folding>
-            <marker date="1425394515000" expanded="true" signature="4665:4985" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="5363:5420" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="5714:6141" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="5767:5796" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="5767:5924" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="5832:5855" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="5856:6141" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="5924:6141" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="6555:6569" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="6570:6688" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="6817:7507" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="7594:7617" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="7618:8102" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="7668:7886" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="8003:8102" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="9295:9309" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="9310:9482" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="9564:9587" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="9588:9734" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="10381:13076" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="10438:11902" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="10485:11875" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="10623:11844" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="10673:11010" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="10726:10792" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="10850:10972" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="11059:11293" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="11343:11551" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="11600:11807" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="11959:13053" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="12006:13026" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="12139:12995" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="12189:12413" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="12462:12685" placeholder="..." />
-            <marker date="1425394515000" expanded="true" signature="12735:12958" placeholder="..." />
           </folding>
         </state>
       </provider>

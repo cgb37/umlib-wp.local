@@ -39,3 +39,52 @@ function master_calendar_func( $atts ){
 
 
 add_shortcode( 'master_calendar', 'master_calendar_func' );
+
+
+
+function custom_libhours_post_type_column( $column, $post_id ) {
+
+
+    switch ( $column ) {
+
+        case 'ID' :
+            echo get_the_ID();
+            break;
+
+        case 'semester' :
+            $semester = get_post_meta( $post_id , 'semester' , true );
+            echo ucfirst($semester);
+            break;
+
+        case 'year' :
+            echo get_post_meta( $post_id , 'year' , true );
+            break;
+
+        case 'calendar_active' :
+            $ca = get_post_meta( $post_id , 'calendar_active' , true );
+            echo ucfirst($ca);
+            break;
+
+    }
+}
+
+
+
+
+add_action( 'manage_libhours_post_type_posts_custom_column' , 'custom_libhours_post_type_column', 10, 2 );
+
+
+function add_libhours_post_type_columns($columns) {
+
+    return array_merge($columns,
+        array(
+            'ID' => __('Post ID'),
+            'semester' => __('Semester'),
+            'year' => __('Year'),
+            'calendar_active' =>__( 'Calendar Active'
+
+            )
+        )
+    );
+}
+add_filter('manage_libhours_post_type_posts_columns' , 'add_libhours_post_type_columns');
