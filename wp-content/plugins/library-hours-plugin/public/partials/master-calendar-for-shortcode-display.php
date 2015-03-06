@@ -61,7 +61,7 @@
                             if($key == $openHours->getCurrentWeekday()):
                                 $day = $openHours->get_todays_hours_formatted();
 
-                                if($day['is_closed'] == true) {
+                                if($day['is_closed'] == 2) {
                                     $display_hours = 'Closed';
                                 } else {
                                     $display_hours = $day['open']." - ".$day['close'];
@@ -70,7 +70,6 @@
                                 if($openHours->is_holiday() == true) {
                                     $asterisk = "*";
                                     $asterisk_def = "<p class='small'>* An exception to the normal weekly schedule. See Exceptions for more information.</p>";
-
                                 } else {
                                     $asterisk = "";
                                     $asterisk_def = "";
@@ -79,13 +78,10 @@
                                 echo "<tr style='font-weight: bold; background-color: #ffffe0'><td class='time-entry'>{$key}{$asterisk}</td><td class='time-entry'>  {$display_hours} </td></tr>";
                             else:
 
-                                echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$display_hours} </td></tr>";
+                                echo "<tr><td class='time-entry'>{$key}</td><td class='time-entry'>  {$day['open']} -  {$day['close']} </td></tr>";
 
                             endif;
-
-
                         ?>
-
 
                     <?php endforeach; ?>
                 <?php endforeach; ?>
