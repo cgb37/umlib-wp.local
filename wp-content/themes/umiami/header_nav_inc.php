@@ -38,7 +38,8 @@ $rlib_img = $many_libraries[$key2][2];
   <div id="supernav" class="track_me_TopNavigation_Click" >
     <div id="superzone">
       <div id="logo"><a href="<?php print PATH_FROM_ROOT; ?>/index.php"><img src="<?php print THEME_BASE_DIR; ?>/images/logo.png" alt="University of Miami Libraries" border="0" /></a></div>
-      <?php
+        <?php if (IS_INDEX): ?>
+        <?php
         $get_date = date("Y-m-d");
         $weekday = date("l");
 
@@ -64,7 +65,7 @@ $rlib_img = $many_libraries[$key2][2];
 
                 ?></a>
         </div>
-
+        <?php endif; ?>
 
       <div class="icon"><img src="<?php print THEME_BASE_DIR; ?>/images/question_green.png" alt="ask a librarian" /></div>
       <div class="text tour_2"><a href="<?php print PATH_FROM_ROOT; ?>/ask-a-librarian/">Ask a Librarian</a></div>
