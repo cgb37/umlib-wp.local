@@ -35,7 +35,7 @@ class Open_Hours {
     private $_saturday_close;
     private $_sunday_close;
 
-    private $_time_offset = "18000";
+    private $_time_offset = "14400";
     private $_current_timestamp;
     private $_current_weekday;
 
@@ -220,6 +220,39 @@ class Open_Hours {
 
     }
 
+    public function is_holiday_check($timestamp) {
+
+        $date_to_verify = $timestamp;
+
+        $holidays = $this->get_holidays();
+
+        foreach($holidays as $day) {
+            $start_date = $this->date_formatter($this->_holiday_date_format, $day->fields['start-date']);
+
+            if(strtolower( date('D M j, Y', $date_to_verify) ) == strtolower($start_date)) {
+                return true;
+            } elseif($day->fields['start-date'] <= $date_to_verify and $day->fields['end-date'] >= $date_to_verify ){
+                //closed
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
+
+
+    public function get_calendar_period() {
+
+        $query = get_post_meta($this->getPostId());
+
+        $data = array(
+            'semester' => $query['semester'][0],
+            'year'     => $query['year'][0],
+            'start'    => $query['semester_begin'][0],
+            'end'      => $query['semester_end'][0],
+        );
+        return $data;
+    }
 
     public function get_calendar_period_formatted() {
 

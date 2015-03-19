@@ -75,6 +75,7 @@ class Library_Hours_Plugin_Public {
 		 */
 
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/library-hours-plugin-public.css', array(), $this->version, 'all' );
+        wp_enqueue_style( 'fullcalendar', plugin_dir_url( __FILE__ ) . 'assets/bower_components/fullcalendar/dist/fullcalendar.css', array(), $this->version, 'all' );
 
 	}
 
@@ -97,7 +98,21 @@ class Library_Hours_Plugin_Public {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/library-hours-plugin-public.js', array( 'jquery' ), $this->version, false );
+
+        wp_enqueue_script( 'moment', plugin_dir_url( __FILE__ ) . 'assets/bower_components/moment/moment.js', array( 'jquery' ), $this->version, false );
+        wp_enqueue_script( 'fullcalendar', plugin_dir_url( __FILE__ ) . 'assets/bower_components/fullcalendar/dist/fullcalendar.min.js' , array( 'jquery' ), $this->version, false );
+        wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/library-hours-plugin-public.js', array( 'jquery' ), $this->version, false );
+
+
+        // - set path to json feed -
+        $jsonevents = plugin_dir_url( __FILE__ ) . 'includes/calendarfeed.php';
+
+
+        // - tell JS to use this variable instead of a static value -
+        wp_localize_script( 'fullcalendar', 'umiami', array(
+            'events' => $jsonevents,
+        ));
+
 
 	}
 
