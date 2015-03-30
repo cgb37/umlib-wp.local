@@ -156,11 +156,13 @@
 
         //var_dump($openHours->getPostId());
 
+
         $period = $openHours->get_calendar_period();
 
         $startdate = date("Y-m-d", strtotime($period['start']));
+        //var_dump($startdate);
         $enddate   =  date("Y-m-d", strtotime($period['end']));
-        //$enddate = "2015-04-24";
+        //var_dump($enddate);
 
 
         $start        = new DateTime($startdate);
@@ -177,8 +179,28 @@
 
         $days = array();
         foreach($holidays as $day) {
+
+
+            $origin_dtz = new DateTimeZone("America/New_York");
+            //var_dump($origin_dtz);
+
+            $offset = $origin_dtz->getOffset(new DateTime('now'));
             //var_dump($day);
-            $days[] = date("Y-m-d", $day->fields['start-date']);
+            //$days[] = date("Y-m-d", $day->fields['start-date']);
+            if($day->fields['holiday-closed'] == 2) {
+                $holiday_title = "Closed";
+                $holiday_allday = true;
+            } else {
+                $holiday_title = $day->post_title;
+                $holiday_allday = false;
+            }
+            $days[] = array(
+                'holiday_start' => date("Y-m-d", $day->fields['start-date']),
+                'title'  => $holiday_title,
+                'start'  => date("Y-m-d g:i a", $day->fields['start-date'] - $offset),
+                'end'    =>date("Y-m-d g:i a", $day->fields['end-date'] - $offset),
+                'allDay' => $holiday_allday
+            );
         }
         //var_dump($days);
 
@@ -213,17 +235,18 @@
             $open_ts = get_post_meta($openHours->getPostId(), $ev_weekday.'_open');
             //var_dump($open_ts);
 
-            $open = date("H:i:s", $open_ts[0] - $offset);
+            $open = date("g:i a", $open_ts[0] - $offset);
             //var_dump($open);
 
             $close_ts = get_post_meta($openHours->getPostId(), $ev_weekday.'_close');
             //var_dump($open_ts);
 
-            $close = date("H:i:s", $close_ts[0] - $offset);
-            //var_dump($open);
+            $close = date("g:i a", $close_ts[0] - $offset);
+            //var_dump($close);
 
 
-            $event_title = " - ".date("H:i:s", strtotime($close));
+            $event_title = " - ".$close;
+            //var_dump($event_title);
             $event_start = $ev_formatted_array[0]." ".$open;
             $event_end   = $ev_formatted_array[0]." ".$close;
             //var_dump($event_start);
@@ -231,10 +254,13 @@
 
 
             foreach($days as $day) {
-                if(in_array($day, $ev_formatted_array)) {
-                    $event_title = "Holiday";
-                    //$event_start = $ev_formatted_array;
-                    $ev->timezone = "America/New_York";
+                if(in_array($day['holiday_start'], $ev_formatted_array)) {
+                    //var_dump($day);
+                    $event_title = $day['title'];
+                    $event_start = $day['start'];
+                    $event_end   = $day['end'];
+                    $allday = $day['allday'];
+                    //$ev->timezone = "America/New_York";
                 }
             }
 
@@ -251,11 +277,7 @@
         }
 
         $events = json_encode($events);
-
-        //var_dump($events);
-
-
-
+        var_dump($events);
 
         ?>
 
