@@ -76,6 +76,7 @@ class Library_Hours_Plugin_Public {
 
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/library-hours-plugin-public.css', array(), $this->version, 'all' );
         wp_enqueue_style( 'fullcalendar', plugin_dir_url( __FILE__ ) . 'assets/bower_components/fullcalendar/dist/fullcalendar.css', array(), $this->version, 'all' );
+        wp_enqueue_style( 'jquery-ui-lightness', plugin_dir_url( __FILE__ ) . 'assets/jquery-ui-1.11.4.custom/jquery-ui.theme.min.css', array(), $this->version, 'all' );
 
 	}
 

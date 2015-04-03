@@ -42,7 +42,7 @@
     <ul>
         <li class="active"><a href="#tabs-1" rel="tab-1">This Week's Hours</a></li>
         <li><a href="#tabs-2" rel="tab-2">Exceptions</a></li>
-        <li><a href="#tab-upcoming" rel="tab-upcoming">Upcoming</a></li>
+        <li><a id="tab-upcoming" href="#tab-upcoming" rel="tab-upcoming">Upcoming</a></li>
         <li><a href="#tabs-3" rel="tab-3">Events</a></li>
         <li><a href="<?php echo $printable_hours['wpcf-printable-hours'][0]; ?>" target="_blank">Printable Hours (.pdf)</a></li>
     </ul>
@@ -151,18 +151,24 @@
     </div>
 
     <div class="tab-upcoming breather" style="display: none;">
+        <br>
 
         <?php
 
-        //var_dump($openHours->getPostId());
+
+        $openHours = new Open_Hours();
+        //var_dump($openHours->get_calendar_period());
+        //var_dump($openHours->get_json_for_calendar());
 
 
+        //$openHours = new Open_Hours();
         $period = $openHours->get_calendar_period();
 
         $startdate = date("Y-m-d", strtotime($period['start']));
         //var_dump($startdate);
         $enddate   =  date("Y-m-d", strtotime($period['end']));
         //var_dump($enddate);
+        //$enddate = "2015-04-24";
 
 
         $start        = new DateTime($startdate);
@@ -179,28 +185,7 @@
 
         $days = array();
         foreach($holidays as $day) {
-
-
-            $origin_dtz = new DateTimeZone("America/New_York");
-            //var_dump($origin_dtz);
-
-            $offset = $origin_dtz->getOffset(new DateTime('now'));
-            //var_dump($day);
-            //$days[] = date("Y-m-d", $day->fields['start-date']);
-            if($day->fields['holiday-closed'] == 2) {
-                $holiday_title = "Closed";
-                $holiday_allday = true;
-            } else {
-                $holiday_title = $day->post_title;
-                $holiday_allday = false;
-            }
-            $days[] = array(
-                'holiday_start' => date("Y-m-d", $day->fields['start-date']),
-                'title'  => $holiday_title,
-                'start'  => date("Y-m-d g:i a", $day->fields['start-date'] - $offset),
-                'end'    =>date("Y-m-d g:i a", $day->fields['end-date'] - $offset),
-                'allDay' => $holiday_allday
-            );
+            $days[] = date("Y-m-d", $day->fields['start-date']);
         }
         //var_dump($days);
 
@@ -235,7 +220,7 @@
             $open_ts = get_post_meta($openHours->getPostId(), $ev_weekday.'_open');
             //var_dump($open_ts);
 
-            $open = date("g:i a", $open_ts[0] - $offset);
+            $open = date("H:i:s", $open_ts[0] - $offset);
             //var_dump($open);
 
             $close_ts = get_post_meta($openHours->getPostId(), $ev_weekday.'_close');
@@ -254,32 +239,33 @@
 
 
             foreach($days as $day) {
-                if(in_array($day['holiday_start'], $ev_formatted_array)) {
-                    //var_dump($day);
-                    $event_title = $day['title'];
-                    $event_start = $day['start'];
-                    $event_end   = $day['end'];
-                    $allday = $day['allday'];
-                    //$ev->timezone = "America/New_York";
+                if(in_array($day, $ev_formatted_array)) {
+                    $event_title = "Holiday";
+                    $event_start = $ev_formatted_array;
+                    $ev->timezone = "America/New_York";
                 }
             }
 
 
-
             $events[] = array(
                 'title'  => $event_title,
-                'start'  => $event_start,
+                'start'  => $ev_formatted_array[0]." ".$open,
                 'end'    => $event_end,
                 'allDay' => false
             );
 
 
+
         }
 
-        $events = json_encode($events);
-        var_dump($events);
+
+        //var_dump( json_encode($events));
+        //var_dump($openHours->get_json_for_calendar());
+        //$json = $openHours->get_json_for_calendar();
 
         ?>
+
+
 
 
 

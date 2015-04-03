@@ -88,3 +88,6 @@ function add_libhours_post_type_columns($columns) {
     );
 }
 add_filter('manage_libhours_post_type_posts_columns' , 'add_libhours_post_type_columns');
+
+
+

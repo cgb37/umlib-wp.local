@@ -284,18 +284,22 @@ endif; // twentyeleven_admin_header_image
  * To override this length in a child theme, remove the filter and add your own
  * function tied to the excerpt_length filter hook.
  */
+
 function twentyeleven_excerpt_length($length) {
   return 40;
 }
+
 
 add_filter('excerpt_length', 'twentyeleven_excerpt_length');
 
 /**
  * Returns a "Continue Reading" link for excerpts
  */
+
 function twentyeleven_continue_reading_link() {
   return ' <a href="' . esc_url(get_permalink()) . '">' . __('Continue reading <span class="meta-nav">&rarr;</span>', 'twentyeleven') . '</a>';
 }
+
 
 /**
  * Replaces "[...]" (appended to automatically generated excerpts) with an ellipsis and twentyeleven_continue_reading_link().
@@ -303,9 +307,11 @@ function twentyeleven_continue_reading_link() {
  * To override this in a child theme, remove the filter and add your own
  * function tied to the excerpt_more filter hook.
  */
+
 function twentyeleven_auto_excerpt_more($more) {
   return ' &hellip;' . twentyeleven_continue_reading_link();
 }
+
 
 add_filter('excerpt_more', 'twentyeleven_auto_excerpt_more');
 
@@ -315,6 +321,7 @@ add_filter('excerpt_more', 'twentyeleven_auto_excerpt_more');
  * To override this link in a child theme, remove the filter and add your own
  * function tied to the get_the_excerpt filter hook.
  */
+
 function twentyeleven_custom_excerpt_more($output) {
   if (has_excerpt() && !is_attachment()) {
     $output .= twentyeleven_continue_reading_link();
@@ -327,10 +334,12 @@ add_filter('get_the_excerpt', 'twentyeleven_custom_excerpt_more');
 /**
  * Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
  */
+
 function twentyeleven_page_menu_args($args) {
   $args['show_home'] = true;
   return $args;
 }
+
 
 add_filter('wp_page_menu_args', 'twentyeleven_page_menu_args');
 
@@ -339,6 +348,7 @@ add_filter('wp_page_menu_args', 'twentyeleven_page_menu_args');
  *
  * @since Twenty Eleven 1.0
  */
+
 function twentyeleven_widgets_init() {
 
   register_widget('Twenty_Eleven_Ephemera_Widget');
@@ -524,7 +534,7 @@ if (!function_exists('twentyeleven_comment')) :
 
   endif; // ends check for twentyeleven_comment()
 
-  if (!function_exists('twentyeleven_posted_on')) :
+
 
     /**
      * Prints HTML with meta information for the current post-date/time and author.
@@ -537,7 +547,7 @@ if (!function_exists('twentyeleven_comment')) :
       );
     }
 
-  endif;
+
 
   /**
    * Adds two classes to the array of body classes.
