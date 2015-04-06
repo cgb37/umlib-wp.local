@@ -8,7 +8,7 @@
 
 class Open_Hours {
 
-    public $_post_id;
+    private $_post_id;
 
 
     private $_monday;
@@ -35,6 +35,7 @@ class Open_Hours {
     private $_saturday_close;
     private $_sunday_close;
 
+    private $_time_offset = "18000";
     private $_current_timestamp;
     private $_current_weekday;
 
@@ -93,10 +94,7 @@ class Open_Hours {
     }
 
     function date_formatter($format, $timestamp) {
-        $origin_dtz = new DateTimeZone("America/New_York");
-        $offset = $origin_dtz->getOffset(new DateTime('now'));
-
-        return date($format, $timestamp - $offset);
+        return date($format, $timestamp + $this->_time_offset);
     }
 
     function get_post_meta_time_formatted($post_id, $key) {
@@ -222,32 +220,10 @@ class Open_Hours {
 
     }
 
-    public function is_holiday_check($timestamp) {
-
-        $date_to_verify = $timestamp;
-
-        $holidays = $this->get_holidays();
-
-        foreach($holidays as $day) {
-            $start_date = $this->date_formatter($this->_holiday_date_format, $day->fields['start-date']);
-
-            if(strtolower( date('D M j, Y', $date_to_verify) ) == strtolower($start_date)) {
-                return true;
-            } elseif($day->fields['start-date'] <= $date_to_verify and $day->fields['end-date'] >= $date_to_verify ){
-                //closed
-                return true;
-            } else {
-                return false;
-            }
-        }
-    }
-
 
     public function get_calendar_period() {
 
-        global $post;
-        $post_id = $this->getPostId();
-        $query = get_post_meta($post_id);
+        $query = get_post_meta($this->getPostId());
 
         $data = array(
             'semester' => $query['semester'][0],
@@ -272,33 +248,6 @@ class Open_Hours {
     }
 
 
-    public function get_weekly_hours() {
-
-
-        $post_id = $this->getPostId();
-        //get the keys for the post metadata
-        $keys = $this->set_post_metadata_keys();
-
-        $args = array(
-            'post_id' => $this->getPostId()
-        );
-
-        $holidays = types_child_posts('holiday', $args);
-
-        $times = array();
-        foreach($keys as $datum):
-            foreach($datum as $key => $day):
-                $times[] = array(
-                    $key => array(
-                        "open"  => $this->get_post_meta_time_formatted($post_id, $day['open']),
-                        "close" => $this->get_post_meta_time_formatted($post_id, $day['close'])
-                    ),
-                );
-            endforeach;
-        endforeach;
-
-        return $holidays;
-    }
 
 
     public function get_todays_hours_formatted() {
@@ -452,103 +401,6 @@ class Open_Hours {
 
         return $data;
     }
-
-
-    public function get_json_for_calendar($post_id) {
-
-        $this->setPostId($post_id);
-
-        $period = $this->get_calendar_period();
-
-        $startdate = date("Y-m-d", strtotime($period['start']));
-        $enddate   =  date("Y-m-d", strtotime($period['end']));
-
-        $start        = new DateTime($startdate);
-        $end_period   = new DateTime($enddate);
-        $end_period   = $end_period->modify('+1 day');
-
-        $interval = new DateInterval('P1D');
-        $daterange = new DatePeriod($start, $interval, $end_period);
-
-
-        $current_day_str = date("Y-m-d", current_time('timestamp'));
-        $holidays = $this->get_holidays();
-
-
-        $days = array();
-        foreach($holidays as $day) {
-
-           // $origin_dtz = new DateTimeZone("America/New_York");
-           // $offset = $origin_dtz->getOffset(new DateTime('now'));
-
-            if($day->fields['holiday-closed'] == 2) {
-                $title = 'Closed';
-                $allDay = true;
-            } else {
-                $title = date("g:i a", $day->fields['start-date']);
-                $allDay = false;
-            }
-
-            $days[] = array(
-                'title'  => $title,
-                'start'  => date("Y-m-d", $day->fields['start-date']),
-                'end'    => date("Y-m-d", $day->fields['end-date']),
-                'allDay' => $allDay
-            );
-
-        }
-
-
-        $events = array();
-        foreach ($daterange as $ev) {
-
-
-
-            $ev_vars = get_object_vars($ev);
-
-            $ts = strtotime($ev_vars['date']);
-
-            $ev_formatted_array = array(date("Y-m-d", $ts));
-
-            $ev_weekday = strtolower(date("l", strtotime($ev_formatted_array[0])));
-
-            $open_ts = get_post_meta($this->getPostId(), $ev_weekday.'_open');
-
-            $open = date("H:i:s", $open_ts[0]);
-
-            $close_ts = get_post_meta($this->getPostId(), $ev_weekday.'_close');
-
-            $close = date("g:i a", $close_ts[0]);
-
-
-            $event_title = date("g:i a", $open_ts[0]). " - ".$close;
-
-            $event_start = $ev_formatted_array[0]." ".$open;
-            $event_end   = $ev_formatted_array[0]." ".$close;
-            $event_allday = false;
-
-            foreach($days as $day) {
-                if(in_array($day['start'], $ev_formatted_array)) {
-                    $event_title = $day['title'];
-                    $event_start = $day['start'];
-                    $event_end = $day['end'];
-                    $event_allday = $day['allDay'];
-
-                }
-            }
-
-
-            $events[] = array(
-                'title'  => $event_title,
-                'start'  => $event_start,
-                'end'    => $event_end,
-                'allDay' => $event_allday
-            );
-        }
-
-        return json_encode($events);
-    }
-
 
 
     /**

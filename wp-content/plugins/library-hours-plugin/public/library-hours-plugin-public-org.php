@@ -106,14 +106,12 @@ class Library_Hours_Plugin_Public {
 
 
         // - set path to json feed -
-        global $post;
-        $post_id = $post->ID;
-        $events = plugin_dir_url( __FILE__ ) . 'includes/calendarfeed.php?ID='.$post_id;
+        $jsonevents = plugin_dir_url( __FILE__ ) . 'includes/calendarfeed.php';
 
 
         // - tell JS to use this variable instead of a static value -
         wp_localize_script( 'fullcalendar', 'umiami', array(
-            'events' => $events,
+            'events' => $jsonevents,
         ));
 
 

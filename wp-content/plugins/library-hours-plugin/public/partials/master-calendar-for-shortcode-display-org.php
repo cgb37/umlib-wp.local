@@ -50,7 +50,6 @@
     <div class="tab-1 breather">
 
         <br/>
-        <?php var_dump($openHours->get_weekly_hours()) ; ?>
 
         <?php $data = $openHours->get_times_formatted(); ?>
         <div id="schedule_box">
@@ -153,6 +152,10 @@
 
     <div class="tab-upcoming breather" style="display: none;">
         <br>
+
+        
+
+
 
         <div id='calendar'></div>
 

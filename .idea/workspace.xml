@@ -2,14 +2,211 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7656438d-9576-4303-b8b3-b012c694f0dd" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php" afterPath="$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc-old.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/Thumbs.db" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/border.png" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/border.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/controls.png" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/controls.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/eye.png" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/eye.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/images/grey_gradient_bg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/images/grey_gradient_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/grey_gradient_bg.png" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/grey_gradient_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/images/grey_square.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/images/grey_square.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/grey_square.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/grey_square.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/loading.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/loading.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/loading_background.png" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/loading_background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/orange_square.png" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/orange_square.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/pencil.png" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/pencil.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/images/red_square.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/images/red_square.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/red_square.gif" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/red_square.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/trash.png" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/images/trash.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ace.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ace.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/includes/calendarfeed.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/includes/calendarfeed.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/umiami/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/umiami/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/colorbox.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/cus_slideshow.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/cus_slideshow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/cus_slideshow_admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/cus_slideshow_admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_anniversary.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_anniversary.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_anniversary.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_anniversary.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_arregui.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_arregui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_beer.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_beer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_beer.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_beer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_belen.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_belen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_caba.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_caba.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_celia.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_celia.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_food.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_food.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_gables.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_gables.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_hbeller.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_hbeller.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_main.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_main.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_matheson.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_matheson.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_mathesontag.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_mathesontag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_media lab gallery.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_media lab gallery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_rcif.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_rcif.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_rcif.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_rcif.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_rustonacademy.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_rustonacademy.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_secondary.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_secondary.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_secondary.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_secondary.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_test.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_test.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_ugscholars.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css/cus_slideshow_ugscholars.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_ugscholars.css" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/css.restore/css/cus_slideshow_ugscholars.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/customslideshow.php" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/customslideshow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-elastic_tabstops_lite.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-elastic_tabstops_lite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-emmet.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-emmet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-keybinding_menu.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-keybinding_menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-modelist.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-modelist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-options.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-searchbox.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-searchbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-settings_menu.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-settings_menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-spellcheck.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-spellcheck.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-static_highlight.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-static_highlight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-statusbar.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-statusbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-textarea.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-textarea.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-themelist.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-themelist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-whitespace.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/ext-whitespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/jquery.colorbox.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/jquery.colorbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/keybinding-emacs.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/keybinding-emacs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/keybinding-vim.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/keybinding-vim.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/js/library-hours-plugin-public.js" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/js/library-hours-plugin-public.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php" afterPath="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/umiami/resolver.php" afterPath="$PROJECT_DIR$/wp-content/themes/umiami/resolver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-abap.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-abap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-actionscript.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-actionscript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ada.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ada.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-asciidoc.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-asciidoc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-assembly_x86.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-assembly_x86.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-autohotkey.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-autohotkey.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-batchfile.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-batchfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-c9search.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-c9search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-c_cpp.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-c_cpp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-clojure.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-clojure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-cobol.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-cobol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-coffee.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-coffee.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-coldfusion.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-coldfusion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-csharp.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-csharp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-css.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-css.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-curly.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-curly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-d.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-dart.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-dart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-diff.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-diff.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-django.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-django.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-dot.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-dot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ejs.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ejs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-erlang.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-erlang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-forth.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-forth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ftl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ftl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-glsl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-glsl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-golang.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-golang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-groovy.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-groovy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-haml.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-haml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-haskell.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-haskell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-haxe.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-haxe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-html.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-html.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-html_ruby.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-html_ruby.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ini.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ini.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-jade.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-jade.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-java.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-java.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-javascript.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-json.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-jsoniq.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-jsoniq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-jsp.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-jsp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-jsx.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-jsx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-julia.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-julia.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-latex.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-latex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-less.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-less.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-liquid.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-liquid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-lisp.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-lisp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-livescript.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-livescript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-logiql.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-logiql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-lsl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-lsl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-lua.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-lua.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-luapage.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-luapage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-lucene.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-lucene.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-makefile.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-makefile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-markdown.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-matlab.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-matlab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-mushcode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-mushcode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-mushcode_high_rules.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-mushcode_high_rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-mysql.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-mysql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-objectivec.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-objectivec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ocaml.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ocaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-pascal.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-pascal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-perl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-perl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-pgsql.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-pgsql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-php.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-php.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-powershell.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-powershell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-prolog.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-prolog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-properties.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-properties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-python.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-python.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-r.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-r.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-rdoc.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-rdoc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-rhtml.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-rhtml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ruby.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-ruby.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-rust.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-rust.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-sass.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-sass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-scad.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-scad.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-scala.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-scala.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-scheme.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-scheme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-scss.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-scss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-sh.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-sh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-snippets.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-snippets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-sql.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-sql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-stylus.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-stylus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-svg.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-svg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-tcl.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-tcl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-tex.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-tex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-text.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-textile.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-textile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-tmsnippet.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-tmsnippet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-toml.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-toml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-twig.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-twig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-typescript.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-typescript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-vbscript.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-vbscript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-velocity.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-velocity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-verilog.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-verilog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-xml.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-xml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-xquery.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-xquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-yaml.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/mode-yaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/slides.min.jquery.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/js/slides.min.jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-ambiance.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-ambiance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-chaos.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-chaos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-chrome.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-chrome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-clouds.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-clouds.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-clouds_midnight.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-clouds_midnight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-cobalt.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-cobalt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-crimson_editor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-crimson_editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-dawn.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-dawn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-dreamweaver.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-dreamweaver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-eclipse.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-eclipse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-github.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-github.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-idle_fingers.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-idle_fingers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-kr.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-kr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-merbivore.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-merbivore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-merbivore_soft.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-merbivore_soft.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-mono_industrial.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-mono_industrial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-monokai.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-monokai.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-pastel_on_dark.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-pastel_on_dark.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-solarized_dark.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-solarized_dark.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-solarized_light.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-solarized_light.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-terminal.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-terminal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-textmate.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-textmate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow_night.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow_night.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow_night_blue.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow_night_blue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow_night_bright.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow_night_bright.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow_night_eighties.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-tomorrow_night_eighties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-twilight.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-twilight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-vibrant_ink.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-vibrant_ink.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-xcode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/theme-xcode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-coffee.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-coffee.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-css.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-css.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-javascript.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-json.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-lua.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-lua.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-php.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-php.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-xquery.js" afterPath="$PROJECT_DIR$/wp-content/plugins/customslideshow/ace/worker-xquery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="umlib-wp.local.iws" />
@@ -29,44 +226,59 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="class.openhours-org.php" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours-org.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state vertical-scroll-proportion="0.08966695" vertical-offset="3585" max-vertical-offset="12165">
+                    <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="umlib-wp.local" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="library-hours-plugin-public.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="library-hours-plugin-public.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/js/library-hours-plugin-public.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.916318" vertical-offset="0" max-vertical-offset="1260">
-              <caret line="73" column="11" selection-start-line="47" selection-start-column="7" selection-end-line="73" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.openhours.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="setup.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/setup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.1666667" vertical-offset="4304" max-vertical-offset="5475">
+              <caret line="292" column="20" selection-start-line="292" selection-start-column="20" selection-end-line="292" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.openhours.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-36.875" vertical-offset="6870" max-vertical-offset="14100">
-              <caret line="522" column="0" selection-start-line="522" selection-start-column="0" selection-end-line="522" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.333333" vertical-offset="39412" max-vertical-offset="72195">
-              <caret line="2648" column="23" selection-start-line="2648" selection-start-column="9" selection-end-line="2648" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.4589161" vertical-offset="3690" max-vertical-offset="14460">
+              <caret line="281" column="22" selection-start-line="281" selection-start-column="22" selection-end-line="281" selection-end-column="22" />
               <folding>
-                <marker date="1425324664000" expanded="true" signature="15771:15875" placeholder="SELECT meta_..wp_postmeta..." />
-                <marker date="1425324664000" expanded="true" signature="16509:16613" placeholder="SELECT post_..wp_postmeta..." />
-                <marker date="1425324664000" expanded="true" signature="36047:36116" placeholder="SELECT optio..wp_options..." />
-                <marker date="1425324664000" expanded="true" signature="120034:120080" placeholder="SELECT id FR..wp_site..." />
-                <marker date="1425324664000" expanded="true" signature="128088:128184" placeholder="SELECT post_..wp_postmeta..." />
-                <marker date="1425324664000" expanded="true" signature="128647:128749" placeholder="SELECT comme..wp_commentmeta..." />
+                <element signature="e#6#94#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,38 +287,13 @@
       <file leaf-file-name="master-calendar-for-shortcode-display.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.916666" vertical-offset="3419" max-vertical-offset="4635">
-              <caret line="263" column="10" selection-start-line="263" selection-start-column="10" selection-end-line="263" selection-end-column="10" />
+            <state vertical-scroll-proportion="-10.041667" vertical-offset="539" max-vertical-offset="2910">
+              <caret line="52" column="51" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="51" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <marker date="1428092397000" expanded="true" signature="2862:2906" placeholder="..." />
+                <marker date="1428351368000" expanded="true" signature="2922:2966" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendarfeed.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/includes/calendarfeed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="465">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="library-hours-plugin-public-display.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.541667" vertical-offset="800" max-vertical-offset="1995">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -138,7 +325,6 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class-library-hours-post-type.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/umiami/splash_hours.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/calendarfeed.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/events.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/includes/events.php" />
@@ -148,11 +334,15 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/includes/events.json" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/assets/events.json" />
+        <option value="$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc-old.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/includes/calendarfeed.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/setup.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/js/library-hours-plugin-public.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours-org.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/js/library-hours-plugin-public.js" />
       </list>
     </option>
   </component>
@@ -161,9 +351,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="719" />
-    <option name="y" value="38" />
-    <option name="width" value="1659" />
+    <option name="x" value="386" />
+    <option name="y" value="30" />
+    <option name="width" value="1858" />
     <option name="height" value="1341" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -313,6 +503,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umlib-wp.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library-hours-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -339,41 +559,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umlib-wp.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umlib-wp.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library-hours-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,6 +578,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/umiami" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/includes" />
       <recent name="$PROJECT_DIR$/wp-content/plugins" />
     </key>
@@ -417,9 +604,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="32dfa6e3-a560-4323-9c1a-a1078302b38b" server_name="umlib-wp.local">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -427,6 +611,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="32dfa6e3-a560-4323-9c1a-a1078302b38b" server_name="umlib-wp.local">
       <method />
     </configuration>
     <list size="0" />
@@ -445,7 +632,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="719" y="38" width="1659" height="1341" extended-state="0" />
+    <frame x="386" y="30" width="1858" height="1341" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -454,19 +641,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28138527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25330397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -485,9 +672,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2980695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -514,27 +701,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1084">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/hours_only.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/hours-calendar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/includes/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665" vertical-offset="13520" max-vertical-offset="32760">
@@ -669,26 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1912894" vertical-offset="44" max-vertical-offset="3405">
-          <caret line="185" column="105" selection-start-line="185" selection-start-column="105" selection-end-line="185" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/js/events.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <caret line="0" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="10411" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5764304" vertical-offset="495" max-vertical-offset="5955">
-          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1195">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6066947" vertical-offset="5505" max-vertical-offset="6840">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.06404782" vertical-offset="75" max-vertical-offset="5715">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4695">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,11 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37233135" vertical-offset="14129" max-vertical-offset="21075">
           <caret line="977" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="1405" selection-end-column="6" />
-          <folding>
-            <marker date="1427825770000" expanded="true" signature="-1:-1" placeholder="SELECT disti..location..." />
-            <marker date="1427825770000" expanded="true" signature="-1:-1" placeholder="SELECT f.faq..faq..." />
-            <marker date="1427825770000" expanded="true" signature="-1:-1" placeholder="SELECT excep..schedule_exceptions..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="1200">
           <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <marker date="1427826767000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,18 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1195">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-fullcalendar/wp-fullcalendar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7147737" vertical-offset="4350" max-vertical-offset="6015">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1427828529000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1427828529000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1195">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,18 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="107.5" vertical-offset="7845" max-vertical-offset="20475">
           <caret line="351" column="5" selection-start-line="351" selection-start-column="5" selection-end-line="351" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#148#0#PHP" expanded="true" />
-            <marker date="1427823227000" expanded="true" signature="-1:-1" placeholder="SELECT disti..location..." />
-            <marker date="1427823227000" expanded="true" signature="-1:-1" placeholder="SELECT f.faq..faq..." />
-            <marker date="1427823227000" expanded="true" signature="-1:-1" placeholder="SELECT excep..schedule_exceptions..." />
-            <marker date="1427823227000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1427823227000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1427823227000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1427823227000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1427823227000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1427823227000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="2160">
           <caret line="32" column="62" selection-start-line="29" selection-start-column="7" selection-end-line="32" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.625" vertical-offset="4365" max-vertical-offset="9795">
           <caret line="316" column="20" selection-start-line="316" selection-start-column="20" selection-end-line="316" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,93 +959,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.541667" vertical-offset="800" max-vertical-offset="1995">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/includes/events.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1171">
           <caret line="0" column="11125" selection-start-line="0" selection-start-column="11125" selection-end-line="0" selection-end-column="11125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc-old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.75" vertical-offset="495" max-vertical-offset="5970">
+          <caret line="79" column="42" selection-start-line="68" selection-start-column="40" selection-end-line="79" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/umiami/header_nav_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.125" vertical-offset="375" max-vertical-offset="5985">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/library-hours-plugin-public-display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17506404" vertical-offset="800" max-vertical-offset="1995">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.333333" vertical-offset="39412" max-vertical-offset="72195">
+        <state vertical-scroll-proportion="-14.708333" vertical-offset="39307" max-vertical-offset="72195">
           <caret line="2648" column="23" selection-start-line="2648" selection-start-column="9" selection-end-line="2648" selection-end-column="23" />
           <folding>
-            <marker date="1425324664000" expanded="true" signature="15771:15875" placeholder="SELECT meta_..wp_postmeta..." />
-            <marker date="1425324664000" expanded="true" signature="16509:16613" placeholder="SELECT post_..wp_postmeta..." />
-            <marker date="1425324664000" expanded="true" signature="36047:36116" placeholder="SELECT optio..wp_options..." />
-            <marker date="1425324664000" expanded="true" signature="120034:120080" placeholder="SELECT id FR..wp_site..." />
-            <marker date="1425324664000" expanded="true" signature="128088:128184" placeholder="SELECT post_..wp_postmeta..." />
-            <marker date="1425324664000" expanded="true" signature="128647:128749" placeholder="SELECT comme..wp_commentmeta..." />
+            <marker date="1425324664000" expanded="true" signature="-1:-1" placeholder="SELECT meta_..wp_postmeta..." />
+            <marker date="1425324664000" expanded="true" signature="-1:-1" placeholder="SELECT post_..wp_postmeta..." />
+            <marker date="1425324664000" expanded="true" signature="-1:-1" placeholder="SELECT optio..wp_options..." />
+            <marker date="1425324664000" expanded="true" signature="-1:-1" placeholder="SELECT id FR..wp_site..." />
+            <marker date="1425324664000" expanded="true" signature="-1:-1" placeholder="SELECT post_..wp_postmeta..." />
+            <marker date="1425324664000" expanded="true" signature="-1:-1" placeholder="SELECT comme..wp_commentmeta..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-fullcalendar/wp-fullcalendar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.087105" vertical-offset="2444" max-vertical-offset="6015">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1427828529000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427828529000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9231426" vertical-offset="314" max-vertical-offset="1485">
+        <state vertical-scroll-proportion="1.1272417" vertical-offset="0" max-vertical-offset="1410">
           <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#95#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5388557" vertical-offset="869" max-vertical-offset="2040">
-          <caret line="108" column="77" selection-start-line="108" selection-start-column="77" selection-end-line="108" selection-end-column="77" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.916666" vertical-offset="3419" max-vertical-offset="4635">
-          <caret line="263" column="10" selection-start-line="263" selection-start-column="10" selection-end-line="263" selection-end-column="10" />
-          <folding>
-            <element signature="e#6#94#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <marker date="1428092397000" expanded="true" signature="2862:2906" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/includes/calendarfeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="465">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1793339" vertical-offset="0" max-vertical-offset="1171">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/library-hours-plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.875" vertical-offset="6870" max-vertical-offset="14100">
-          <caret line="522" column="0" selection-start-line="522" selection-start-column="0" selection-end-line="522" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.32109308" vertical-offset="2234" max-vertical-offset="3405">
+          <caret line="185" column="105" selection-start-line="185" selection-start-column="105" selection-end-line="185" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/library-hours-plugin-public.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5644748" vertical-offset="869" max-vertical-offset="2070">
+          <caret line="110" column="87" selection-start-line="110" selection-start-column="87" selection-end-line="110" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1666667" vertical-offset="4304" max-vertical-offset="5475">
+          <caret line="292" column="20" selection-start-line="292" selection-start-column="20" selection-end-line="292" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/js/library-hours-plugin-public.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.916318" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="73" column="11" selection-start-line="47" selection-start-column="7" selection-end-line="73" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours-org.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08966695" vertical-offset="3585" max-vertical-offset="12165">
+          <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/public/partials/master-calendar-for-shortcode-display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.041667" vertical-offset="539" max-vertical-offset="2910">
+          <caret line="52" column="51" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="51" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1428351368000" expanded="true" signature="2922:2966" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/library-hours-plugin/includes/class.openhours.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4589161" vertical-offset="3690" max-vertical-offset="14460">
+          <caret line="281" column="22" selection-start-line="281" selection-start-column="22" selection-end-line="281" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
